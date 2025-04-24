@@ -17,14 +17,14 @@
   padding: 20px;
 }
 
-.app-header {
+.header {
   font-size: 2.5rem;
   color: #333;
   margin-bottom: 30px;
   font-weight: 600;
 }
 
-.counter-container {
+.container {
   background-color: white;
   padding: 20px 30px;
   border-radius: 10px;
