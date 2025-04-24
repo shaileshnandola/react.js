@@ -1,4 +1,4 @@
-// VideoItem.js
+
 import React from 'react';
 
 const VideoItem = ({ video, onSelect }) => {
