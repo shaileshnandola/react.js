@@ -9,7 +9,6 @@ import Slider from "./component/Slider";
 import Movie from "./component/Movie";
 import Image from "./component/Image";
 import Event from "./component/Event";
-import Section from "./component/Section";
 import Concerts from "./component/Concerts";
 import Outdoor from "./component/Outdoor";
 import Therapy from "./component/Therapy";
@@ -28,7 +27,6 @@ function App() {
   const [movies, setMovies] = useState([]);
   const [imag, setImg] = useState([]);
   const [events, setEvents] = useState([]);
-  const [sect, setSect] = useState([]);
   const [mus, setMus] = useState([]);
   const [out, setOut] = useState([]);
   const [ther, setTher] = useState([]);
@@ -67,12 +65,6 @@ function App() {
     setEvents(data);
   };
 
-  const fetchSection = async () => {
-    const res = await fetch("http://localhost:8000/Section");
-    const data = await res.json();
-    setSect(data);
-  };
-
   const fetchConcerts = async () => {
     const res = await fetch("http://localhost:8000/concerts");
     const data = await res.json();
@@ -101,24 +93,22 @@ function App() {
     setPly(data);
   };
 
-  const loadAllData = () => {
+  useEffect(()=>{ 
     fetchNavbar();
     fetchSlider();
     fetchMovies();
     fetchBanner();
     fetchEvents();
-    fetchSection();
     fetchConcerts();
     fetchOutdoor();
     fetchTherapy();
     fetchpopular();
     fetchplay();
-  };
+  }, []);
 
-  // On button click
   const handleButtonClick = (sectionName) => {
     if (!navbar.length) {
-      loadAllData(); // only on first click
+    useEffect(); 
     }
     setVisible(sectionName);
   };
@@ -150,7 +140,6 @@ function App() {
 
       </div>
 
-      {/* Conditionally render sections */}
       {visible === "movies" && <Movie movielist={movies} />}
       {visible === "events" && <Event eventlist={events} />}
       {visible === "concerts" && <Concerts musiclist={mus} />}
@@ -162,7 +151,6 @@ function App() {
           <Movie movielist={movies} />
           <Image imglist={imag} />
           <Event eventlist={events} />
-          <Section sectionlist={sect} />
           <Concerts musiclist={mus} />
           <Outdoor outlist={out} />
           <Therapy therlist={ther} />
