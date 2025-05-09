@@ -1,0 +1,516 @@
+{
+    "navbar": [
+        {
+            "image": "https://in.bmscdn.com/webin/common/icons/logo.svg",
+            "location": "Ahmedabad",
+            "signin": "Sign In"
+        }
+    ],
+    "menu": {
+        "categories": [
+            "Movies",
+            "Stream",
+            "Events",
+            "Plays",
+            "Sports",
+            "Activities"
+        ],
+        "links": [
+            "ListYourShow",
+            "Corporates",
+            "Offers",
+            "Gift Cards"
+        ]
+    },
+    "slider": [
+        {
+            "image": "https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1745830048072_web101.jpg"
+        },
+        {
+            "image": "https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1744877554805_revplaycard1240x300.jpg"
+        },
+        {
+            "image": "https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1744804585447_summercampaignwebbanneramusementpark.jpg"
+        }
+    ],
+    "recommendedMovies": [
+        {
+            "title": "Mithada Maheman",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ni43LzEwICAxLjFLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00438460-dfckrkjwlj-portrait.jpg",
+            "genre": [
+                "Comedy",
+                "Drama"
+            ]
+        },
+        {
+            "title": "Kesari Chapter 2: The Untold Story of Jallianwala Bagh",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS4zLzEwICAzNi42SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00439158-flhksfkatd-portrait.jpg",
+            "genre": [
+                "Drama",
+                "Historical"
+            ],
+            "rating": 9.4,
+            "votes": 25800
+        },
+        {
+            "title": "Ground Zero",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC42LzEwICAxLjZLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00439759-vzqdhuaggz-portrait.jpg",
+            "genre": [
+                "Action",
+                "Historical",
+                "Thriller"
+            ],
+            "likes": 8100
+        },
+        {
+            "title": "Jaat",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC45LzEwICAzOS40SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00416952-ldjrtgmkrz-portrait.jpg",
+            "genre": [
+                "Action",
+                "Drama"
+            ],
+            "rating": 8.9,
+            "votes": 36800
+        },
+        {
+            "title": "Auntypreneur",
+            "image": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/auntypreneur-et00439413-1745669543.jpg",
+            "genre": [
+                "Comedy",
+                "Drama"
+            ],
+            "likes": 342
+        },
+        {
+            "title": "Until Dawn",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC8xMCAgMS43SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00429656-kuwbaufppl-portrait.jpg",
+            "genre": [
+                "Horror",
+                "Thriller"
+            ],
+            "rating": 9.3,
+            "votes": 84
+        },
+        {
+            "title": "Ne Zha 2",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS42LzEwICA0OTMgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00439661-dqmhhtfpvx-portrait.jpg",
+            "genre": [
+                "Animation",
+                "Comedy",
+                "Fantasy"
+            ],
+            "likes": 6900
+        },
+        {
+            "title": "Phule",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS40LzEwICA3ODkgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00326530-shqmvlultk-portrait.jpg",
+            "genre": [
+                "Biography",
+                "Drama"
+            ],
+            "likes": 20300
+        },
+        {
+            "title": "Odela 2",
+            "image": "data:image/jpeg;base64,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",
+            "genre": [
+                "Supernatural",
+                "Thriller"
+            ],
+            "rating": 8.6,
+            "votes": 5000
+        },
+        {
+            "title": "All The Best Pandya",
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExIVFhUWFxcaGRgYGBcXFxodGBgXGBgYGBoYHSggGB8lGxoYITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGismICUtLTArLy8rLy0tLy0tLS4tLS0tLS0wLS0tLS0tLS8tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAQ4AuwMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAAEBQMGBwIBAAj/xABLEAABAwIDBAcDCQQHBwUBAAABAgMRACEEEjEFQVFhBhMiMnGBkaGx8AcUI0JScsHR4RVikrIWQ1NUgsLxFyQzY3PS04Oio7PDNP/EABoBAAIDAQEAAAAAAAAAAAAAAAMEAAECBQb/xAAzEQACAgEBBAYJBQEBAAAAAAAAAQIRAyEEEjFBExQiUYHwBTJScZGhsdHhMzRhwfFCI//aAAwDAQACEQMRAD8A2B1ZBEAnw8D+leddbT2jhy8qgDrm7JP+Kq30n6VuYJTYcbSoOBRGUfZKQZzEcRQpaathIQlNqMVbLWFm+8W03cZ99fIVOois9T8pg3sqHglH/kqT/aQj7D38DX/koaywT9YY6ln9g0EG3xwrvrKzr/aGj7L/APAwP81eI+UJM3GIg8AzPkK10+PvK6jtHss0Jblj4flULR7CTyHuqjr6esn6uL9Gf++hUdM2k9w4wciGVD2qqdPj7ydSz+wzRUq+PSuwus7R0+5O/wADf4LFSo+UJO9pcbuyief9bU6fH3k6ln9ll/zV6lRqgf7Q0/2K/wCFP/lrw/KINzK/RI//AEqdYx95OpZ/YZoBX8etdZ6oA+UhO/DL/iT+dej5R2/7s7/Ej86nT4+8nUs/sMvyVfHpXaTWfD5SW/7q7/Ej869HylNf3V7ndv8A7qnT4+8rqWf2GX+a8n49Kof+0pj+7Yj/AOL/AL67T8pGHOrGJHk1+DlX0+PvJ1PP7DLwVfHrXeb486o6flEwp1bfH+FJ9yqmT8oWD3l0eLZ/Cp02PvRl7Lm9h/AuQVUOOxqGkKcWYSkHzsbDmdBVXHygYH+0cH/pOfgmuVdMcG8oNh8ELISErYcUCSbd5EaxWllg+aKez5Vxi/gxz0Xx7rzZcWUlsqcy2OayyAJHZUkCwI4U7qr7KwTLBUWCG81suV3KADICUqMJGtgBrTr9oI+17D+VbAHJFZ38rYlWF+6972q0RVZ78q11Ybwe97VL7T+mx70d+5j4/RlBSmpUpr1CalSmuWemOQipA3ROGw0gqUcqRqYkk/ZSN59g30aGssdltudOslayDvKYMeOUVKMudCoN111VN0MlQsG3I1ypLah5hKQfPN4VGvBoGrqRyuog8CUSkjmD5bqlFb6FvV191dMWytpyUnKtJIkQeR15VK3tF4AJC4AEAQncIG7hVacy25cvr+ATAsNHN1qlJt2cu8wdeybTHrRgwuDv9K7E7kiYnW6bdn4Gg+G03tzhsI0T+VeDaT39od+5O8yd3E1tSiv8/INxm3x+f4O2NlskSr5wLTZBMi5nuRGWCDJ1m2ldJ2SxEH5wFXsG1RoY+rI5+BioxtN6AnPZIAFk2AEDdut6TXqtqvn+tV5QPSBbyqb0O7z8TO5l7/n+DsbLYlQIxQucv0f7qDBGXXNn03JFffstiAR84m/1VRaZAPVbtTbQExPZqNW03zMuG4g2TcX5czUSsa6QUlZKTMggEEklRMERMqJnw4CJvR7vPxL3Mnf8/wAE7WymTOZOJBESAgm+UZv6sfWzCDFhUK9nM5ykLeA7IEtKUZMSLAHVSYt9Ycpmw+OxKpCFKVMyEpB1nWE86kUzjB2urXqDPVpJkZIPdkdxH8IrEs2KOja8+JVTT1l8/wAAKtmt6JW4pUKgdSu8W8e92TwNBfMnP7Ne76qt8xu3wfQ0cNovJI7ZlIIBISSAVZiJIm5vXP7TezZusM9m8JvlBCZteASL1q4vz+Qi6Rd3nwF7mFWAFFCgDEEpIBnSCRepdj2xOHP/ADmv/sTU2Jx7q0hC1kpEQIFsoIAECwEm3OoMGYdaPBxs+iwapVvKjUrcHf8AJtgHx8GpAPj4NcAV3XbPHAbuNSIzApmwJ41SPlREqw0fZd97dXjH4QOoKeOnjurPunLhUnChXeSl0HxBbH4UDaf0n4fUd9HfuI+P0ZVEJopjDqVZImBJ3ADiSbAeNcIRR2FHZWnkFDxRP+UqPlXLR6STpBLLaUkSoKCE2CBnAUqAVqKoT3oEzFk6xcnDYGVXATdzMpcuqCmoLgNss5TPdVJqRe2VKMJQ0icye4MuVRCiCCCNc1/3zTlzY7hS11udaS6UOdXmhwFIW2sWhQ1GbLMzvoqinwE5zcfW0vz7haAwgjrXOtgKSUCSBCzlUgCEiUJIjdmBtuW9cEoyBu8EKUbE9oqBI3EW37t9WVDWHZUplTZUuFjM2kq7DibZ8xzJUnwmw50DtVpLziVzlKwArRWYpASVpCZCRYGFEb+FXOLrlZWPIm9brj9qSEj6JCVcRB8U2/ly+tRZKMcIy5UzEzJ1MgDTdpzqLJQGNxehBkr7JRGWicNgwpJOaCJtlJEATKj9Ubt96xOairZHJIEXglhIUUEJMX8dKiy08wuzSErJBzEFI4GUgDx7Sk+lSNNtpBCb5M5nLdRSkySo6Jk2SPE0r1pK+fu8sx0pXSii8LhRBUqDAkBRhMbioi9zYJFzyGpKW2CAPpQoxKuzAPhvHnNSYXDHto6tS1TBKYIgfVk2AJAMi9q3ky9l8V8tC5T0F+IxbvdKikQDlT2EwRIsm2hFDIdWDIWoHiCRTJ/DqdfUlIgyQAezASIEzyFD4zBKbICouJBBkEcQRV43jpR0Taui4uPAlS4cQlSV3dSkqQvQqCblCuNtDypOU042MmHCvchC1H+Ej3kUtKavElGcox4aeF3p/fiXHRtIGUmo4uNxkX86JUmh3xY0wuJt8DcFCLczXteKVJJr0fHxNdw8acA1nnygp+lbHN32lFaEaz/p+Pp0eCv8lL7T+kx30d+4j4/RlZbTReGMKB4G/Mbx6VC2miW01yz0bCW8KiY61MbrKnlMgAeZiim3MoKJUmQJDhUUkAymybHiAQRQSU0QhxQGXMY4aj0Nq0mClG+ZL3oBWV8EIBA9CAB5JNcudmdMxBEDRA0gHjEjfqd+npeURGYwdQLDzAsajCapspIiy17lqXLX0Vk3ZFlpjgCtYDSWi4QSoCVQNO8BYiePGhIp90R2o2wtfWGAsJhUExlm1r3n2VFihlajPgCzyag3FW1yFOLeeTLbgIVJnNOa5SryHZERUjZJQXHVKKRKUpBjMTrpu48aL6UY9D72ducoSEzETBJmDffF+FCNYtHVhC0ZspJF4140vtOGMNMStXyq6519PcZg24JuNPmdbN2eoKQ6e4BnJ0uJtzuJr5YhCM7kg9oIbB7RJ3q8bcai+dmVmB2k5bWCRaw8hFcMYxSLDKYuJAMHiJ0oEsOaTcpVyr589e+r0NOMm7YxxacOAXlJKypRiZGYi2m5I0vSfEOOPrFpOiUpFgOA/Oi8NiFqhBQlySSArWTcwZGtFqwGLVKE4dSAdQlOQHxUdfWrwbLlhwi2+CbdpL+F9eHvoypKDptX/L5CnFQ2gtJIJJBcUNLaIHEA3njS5SKdbR2MtmAopzEElIMwBAuRaaVqTTqwvHo+PFhcU4yVxdga00Jik9k+BpgtNDPoJEDU2HibCtBbNjaVIB4hPtFST8XqHBohCEwLITx3JqfyHx5V3Dx7I1fHxNUHp6Pp0jgFe5s1oBPx8GqF0+T/ALwnmk+5Apfav0mO+j/3EfH6FdbFEoFQtiiUCuUeiZIkVKlNcIFTAVZhs8Ca9iuhXQFQycBNMNgvIQ+lTndE7puRAt50HFeoFx4irjKmmZnHei4vmXjpZs9tTCl5QFIgggAHUAjwg0o6EMJUt3MkK7KdQDvPGrF0l/8A5nfAe8Ui6Cjtu/dT71V0MiXWI+e85GKT6pPXn9jvaWy0OY5DeUBHVhSgLTBVw42FPMXi2MKlIICAbAJTrGth8XpNtnHdTjkOESOrAVxglWnsPlTXG4NnGIBzTGikm4nUEeQseFah/wB7lb1mMmqx9Je7XIrnSjG4d5tKmozhV+zlVBSd8XExT7Y+1sOrKy2b5dMpAMC9VjbGwVsQZCkExmAiJ4jdVi2T0aSy4HOsKiJgRAuI4mbE0PE8ryPRcrDZ1gWFJSb417wTbezG0YhlQASHTlVFhMpIPKdKnXh1IxSGy64UOoUACpRGZPasCfshXpQ3SfHJU8whJBKFgqjccyYHjY+yj+lJyhp3+zcSrymCPSaYxySc64L7CmWEnHHfF/fQH6RbLSEIWB3VQr7rgKD7SKz5Sa17GtdY2pOuYW8dR7YrKsQzlPI6eFK7ZDVSH/RmTRxfniALTXmCaCnmgdC4j+YVM4mvdmol9n/qI99Kw9ZHSyv/AM5e5mnYcAJRv7CeHCpcwqHCdxH3RRBQa7J5U5JHxFZ906T/ALwnXueW7StAVx+PfVA6dA/OU/c/EfpS+1fpsd9H/uF4/QRtiucRj0N2JlX2Rc/p50txW0xdKFhJFiqJvwTNp9fChYbIjrEqOpJM+JUBv5kUnj2dy1Z1c+2KGkdWFO7ecvlQhI4klXutQSukeIBsUn/AAPaaExWMabFilZ4wTEcNEikeL2nmJ19lMrDBchHrGR62W/D9L1D/AIiEH7pIP4irHsvazT47CrjVJ1H5jwrIC/vo3ZmPU24lxJgpM/p56UOezxa0DY9pknqbFFexQ+zse28nM2qRv4g8CKKApFqh9Oy/YLajLzfaUmSIUlRA3XEHUV9spTAWttgJsAVFN7mQBO/f61Qoplsbahw5UQgKzADWIieXOnYbXbW8vE5uTYKjLcb9wx6SYJTuKCURm6oGCYmCqgMFsrEpcTlQpJkX0Gt5MwRyrt7bai+l8IAITlgkkHXw40zT0ttdm/3v0qrwyk5OTWpqtohBQjFNV55jTpJHzZyeAjxzCPbFSsrRiWP3VpgxqDvHiDVR2vtlb9iAlIM5Re/M76Cw2KW2ZQtSeMHXxG+ty2qO/orVAobDLo0m6ld+fgMdr7CGHQXA5mykEDLG/ferH0mbnDr5An0qmYrGuud9aleOnoKsG0OkbTjakBC5Uki4TFx41ePLiSkkqKzYM7lFye9/XAa9HMT1mHQd4GU/4be6D51S+kmHLb7iL5VKzgbu1f3yPKjdiba+bpWkpKpIIEwJiDPs9KA2ztFT6wpSUpgQInSZuTrQ8mWMsSV6hsGCePPJ12X/AKJlprrZaf8AeGf+qj+YV0tNfYCzzJ4Ot/zCl4esh/J6j9zNEwZ7CY5j0Jon4+LUJgkdgeKveaNSK7J5c5WKyj5X9pZHkIQYWWhPEAk+0wa1DF4gNtqcV3UJUo+CQSY8hX5o2xtZeJecfUSVLUTe8DckcABA8qxkSapjGz2pbyCcI00gZniVHcgfkNfD1qN/GOu9lpsIRwAH+k8/bXvRrZLmJctMDU39BWp7H6LobAkUCWRR0GVC9WZYjo28q6iSedfK6MLFbd+y0RpS/GYBABtQumYVY4sxjEbLKNU2HxeoW0pKriByrQNrYUGbVTdpYcIJjWTRoT3gc8e4fYHaS2XEqQSD7COBG8VqOysal5tLid+o4EaisaLl6v3ydPmXUE2hKgPYT7vZQNoxqt4Z2fJrRcoqVhgqMAjQm5jTcOdfRX2WkkONhAwCheUGNwVMxwgb/wAaJGGFuw1uPfVeQLGl+TlXTTYJuco4wT7BRFJLkBlFviwr5uL9hF8uqlWziB6EX8a6WykDNlajkpRPutUAw6P7QfwqqN1lIFlzfSCLcb1q65fQzVvi/mTu4AnTqxHBRM7p5+XGh3cIUpzEp3aG95+PMVHlrwprDafIIlJcyMio1CpiKCxWPbR3lDwFzVJN8DbklxPVprnCIl5of81v+cUH+22T9YjxFH7NdSp1kpII61vT74rai1JWjMpxcXT5F+wghI8VfzKokLoPDq7P+NXvJooeHs/SuwebEnT0kbOxWWQeqVca8D5RPlX5zw8LUlABJJAA3STaa/S/SZrNhMQkaqZcFxbuK1tWEfJ3swLfCyJyAq8+6B7SfKh5HSsZwa6Fw2UlzDMp6rDZkjVQIlR3kJ1jhTPZXTJK7KbUiOP+lBvYd0urLqyloAhCEkovFiSQRE67+HNDs/BOqdAzZpXcAlUC0XyiT5ClNGrG912aYcejLM6iq7tDbzVxmAoLpq8G4DdiBHKq5htk521vuizYlU9nN90TmV6RVRimabcdUM38WheigfOqh0kbgg7qYujDkJhpTRVdKuMGJB8RXOPaK2ilZkxrx4HxrceyypNyWpUsu/dxq7fJwk9er/pnfzTVKaPZINX35MGTndVuCAPMmR7jWs/qMrB6yL9lrpNiCN167y19lrmj9kpxzmsj0HGZ9amaeJuXAk2tlmwtuHjQyFkAgbxBtzmpjjnPtceG+ixn3t+fEFKHcl58Cbr7/wDF4EHJvvNo3QPWvi6Jnrr5cvc+r9nn6UL86XBE2M7hvk6+Z9a9VjF8dDOg4R7jWukXn/THRPzX2PHsWvMbg63yi4PLnah8RiFL7xBibwBrc6VM5i1kEEi+thff770k6Q4goZJGpIH4n2A1m3J0nxCJKKtpaCfpDtJwwhohAV9aYJA1PIbuJpI4GUJGYkk8CSfZrV06PbDCxncuVaHgNLUZieheHHa73IkxTcGoqkhSdzdtmU4vEIvkEHzn21zhNquNqSpKilSSCCOIMg391aXjOjzUZcgql7Y2ClMgWvW45k9GjL2eXGLNM6DdKUYxogkB9BlaOPBaZ3H2GrZmHxFfnbYGMVgsW28SYSoZo1KDZY523eFfoND0gFJkEAgibgiQdeFMp2ITi4skdCSIMEEEHmCII0rKfk8waUv4lKUwlDqkCTNkLWBffAt5VqwIn/T86zjo/spzBBwOrSpZUpRy31JAk7yQM3+Kg7Q+yH2VW2W3aS2kJlZA8aFwTaVdpKYGtxE8DVKwb68W8XFn6NKiEo45TEkeIPpTvG4t9pKlJJM90EH0HLlSu6OqSSoTdI1S+ZvemuB2UHWwULKfDT0qmO7SxWcqKUidZuY5cKadHtrraUATY1bi0je/F6BG1uiwF1LzEch76T4hgARVm2ptLNqaq+0sRAUeAPuqRtlSpFMCO0qLiTWo/Jrh4w61mO0uP4R+tUjC4dIYUs2IOvGxKfUwK1bo1hg3hWUgR9GknxIBJNTaJ9mjOKNMn2hjUMozLMDcN5PAVVsX02KQVJaTANgpRk+gpXi33sdjVpa7TaFZU8AEmCo7hJvV62FsJhpMHItSdTYkGsxxwglvK2VLLJvR0hJsbpm06UJcQWlL0JIUiZiCq0HxFWciql022Y0pJIACokEW5026G4xT2DaUq6gCknjlJAPpFDyQjW9ELCb4MakVyRUqqUK6R4UKKevRI11gf4oj20JRb4II5pcRgRVe6akhgbu0PXd+NWMGRIMg6EUs29s/r0BvIVd8ggxlKW1kWjtTpFtda1idTRJ6xYb0TxOZlM7hAp8+QU1nymsQG8qJBbIQCFuAISG0KnKiM6iVHXjrApOtWNEAPurlSUkduCVLASAVT5+E02khWi/4qIzGqXtRzMomhOkm1sU091PYNp1MQT66g+lLv2yspAcQATOmtptF4O8AxNV0b4hFNLQVbZdJV7PKv0B0TVOCwpUb9Q1P8CawN3DF7EIZRq6pKQeGaAfS58q/QjODSlISnMAkADtHQCBTkPVRzdofaYSRWbOPqTjcY2skysLTJJ7KhFuEQPWr1t3a4YQSBmVuEwBPH8qxzbG31qxYxCyNAhQSIlPLjBv5ULLKMuyTA92VscYbYwUp9QUtBtlKCUm9zprc6c6d4LDrLYzl9BCbKbWlwLIA7RStMpk5rTwvXOzXQsSIvw0M1zj8HiBdDkiLAgGPPWl7Z0YuPMr3SABskB3EqPFaG4Pd58z6Uj2eMQtQlKUpnXf6Cw9ab43BOz24ob5xltwraehWTdvSwrGuiYG6lOMdSAoq0AJNdrekzSXpDieyGxqoyfAfmfdVxRmT0sO2ggqWwy2ZSvKRG8k5QDWxoSEJsCQlOidTlGg9Kyr5NNjlb/Wq7rQn/Fokfj5Vp208UWmlOBObKNJItME24C/lS+Z9pRQSPBsh6MbEDLKkADMSZPmYgj4vS1nYCnMSVqfWQkXTnUVRGhI0mJqzF36MhJ7SrCqdt/ErwyFJCMhIPbQFFcHU51CFqNpEDSrTbfvJGF6Ff2ptZzrci46vM4AIVmgmR2j42103Vdeh+zyzg2kK7xBURwKyVR5AgUgwGz+tQhsGVqBlcCYk9o086TbW6lHVt98p1+yI18amR71QiV6urEvTLbcnqEHszCouVq3IHKaha6MMoQQ+shxaZCEzlSYt2ohR9njSvonhC7iQtaZSiCSZhN7RVx2ktoqccU1cpKEqEyokRmG6BMcaK+wtyINR33vMD6EvHq3GSrN1K4Sf3VCR7Zp7iWc6VImMwA8pBI8wCPOq50OgO4kJnL9HE/uhQq0TFLZNMgxD1QHaeKUwhbjeUzBUhSSQSAEyCCCDAA3iwsLyPsAOOrS7ioRBKkNpT2RYjMpXGCYHM67iNuufQKyiVCCPIzXUOdSErU3JSJPaRNptrvo6ehjdKR0nxSPnalkhSCIUBExNiAdYJv40JtJltQhskk6mFAAbzccKk2xg20umUgZjuUFDwndU2KbCQmN4FauqNOPFAmx9kl7FttJkTkuNwSqVmRpCRW8KVfUev61n/wAl2z0lx/EG5SEoTraZUo+fZHrWhFXL3/lTWJaWc3apXLdXIzXpliHFSkCTmACZsTNiT5z61UML0dW4c7qyBuAAHvBitMb2XnPXr+qQoJ8DcnnG74EW3NlZVZk9xZtyJuU/ly8KUVqNoJhjGUqkV/BAsRAlOUfhepP6SJkg7qbP4QFI5VWtp4ITMVmLT4jTj3AO1NrhZOWkwJN6OfQBQbyuFERmiJSuFJNrpl4AfZHvNOgKGw+E6zEI8Z8hr41pOjORNRs0boEgIw4bIAVJJjfNWZYBEKAINiDvm0VWtlJIVb44Saesvd0QOyRHhBTB46+ylHHedkx5tKZC82tKitKiImOF+Iqu7d2s6vsrEj186tWOBjsiSarO0cCoElQj45USH8hmNujOCUhJcWIzJEDgn4ApJtdnOtalKkE6D8SLmn2G2n9FDqcvZAkcxGlKHGy6oJQJKidIHM8hV44u3JmMklwDdkuI6khCEpI+qLDkef6UveU+lRSFSEaWChxtmGkV1stteYZRJ3ibRz4VZHMASbNkTFzYeebxqOLvRWXvJLiVrAgpK1g5SuBCQALDWwt5VZdhYEvNOhxSgFhSQRqmd6eYqJnYCzMqSmPP3Uw6O9aguNOhIykFBTMFJAF5vMiTaL8qNDE7TaFZ5G719wuxWHW0QlwAmO8BCVxqRw8N1cY8MrRKleUke6m3SjpBh8IzmxFwo5Uo3qPLgBqVbvGKpXzFrGtFaFKbdkw3nBSd4ANt2876uWBp2uATHtCekuIj2m0gLMKlPr5XqDFYrN5C1Bu4UpJT2pBgg6gjUGo30kiBcmwA52rCQy5UrNm6DKZGEQlvvQCuQAoqMkk/aEmAeAFWNKbfoPyrIk7aXhX2sK32A1kU4sweszpSqBwQAqI3kVcP6QO8U+h/A02tEcqUXJtj7ICgjiK42fC2ghQmBlM78pifZNTpFooJpeVSvEK9bH3D1pfG9aNsA2js9aAcgzp4fWHlv8vSqrj1gyDY8NCPEbq0V5ekCxoDGsIcspKVfeAP8wrMsOugaG0NaMyXEN3oNaa053YDBPcb9I9gqL+j7CTJaRPNIPvqKDC9Yj3Gc4bAOOmEJKuMaDxOgqy4DYbeHaLjqgFDvKvv0QkC5+PK0vBDKMyhb6qRafLcKqmNS6+qVHwG4DgBuoc2loCyZHPQn2h0kabRDSFLUoWKhlSnnGp9BUexOkYcJQ5CVjQ6BX5Go3tlBUDgIqPC9G0Z5MnzrFqgRbMNiDE1KpkLIm3HnwHxwqDDMbhoKOabqUbhkcRftNCQDaQm5gxfQfnSXG4wtnKzFpzKKQSSQUmCd0GrHjWM7ao1kGONp91IWMPmcE7yJ+PWiqWm6g0FGT33xLR0cwhbaCnDLq+0owAROibcPxpk65UKHL10ozTqSSpCkm27YMp7Kdbb+XMcuI/DTnFrKSFpAK0XAmAtP1gPLdyrjFD14/pSzF4u6QO8ARbcUy4iPEBaR94CoUV7pL0Wfx5D63UhcQhAJLaRqEjx+1v9ISbCxjmAc6jEtkonUd9PNO5aeXpwrR2hqkaLTnRug6/zbuBFQ7V2Y3imwlYgqTKVb0nl+VRt1RcavUQdItgt41IxGHcBXAByGzgSNCNzgG43tB3Ur6ObNQcQCoHq2EKcVzIFh6T7KWMvvYB8jwzCeysbiOfA7j5irWpYeYdxLMfSIhwDUKBQokjcT2gfI76G420w+9UXH4CxeB69XXOWWqSY5/V8BoPCn2z8Gotpvu/Gu9n4MrURuED2CnSnkt9gHu2ogEbIXPlQmJs4n94KH+Ye6q+elyMwBKQTp+MydK9V0qZdKQkytKhIGk8B5cdKSi9Q0sE1yLVhjKYqVSRF9KR7F2626stDvJE6yCAYMGjsfKoE2ppNNAJRadM4cxaZhtsHnFfOoyAuuxbRI9AB51MwlKBzpPt/FlTiUTZEKP3jf2D3msZJbsbIhPtN9Trl9B6eA5VOxhoTNd4DCZjJppiGO4keJ8qTS5s0wBvCb6LbwwSkq5VPEmBoKk2hZCRxIH4mtUREDEJKUnvKBMe2/lU7QgK8DWd7Z2y6nGoykhQVpuOYxHga0HFrjNHAirrQLmxqDpHCj9Ej97KPfSnEsw8ngSPWilOfRMj9786jx6sy7fUKfOD2vaTVLiioS3WHsvuDVIWOIsfSi2sQDxHjS9t8oM6p38udMg4mJtBroACPEEAgRIO/cDwNV/aiYOZFyggkC5GUyJjmBVhedmEpTc1VekWxGmldakKQpWq0EjKeMaEVCxtg3ApoEX6tRj7p/Qj0olBASgj4vVY2DjinMgqEgwY0PAiNxEGnDD1oJsDaoSgTpHspOIQRYLSpWVW694P7s/nVG2Vj3cI8q3FLjZ0UN4PA8Fe8G+gvvW131W+k2zushaIzhMjQZhOhPEXjzqmjcZVoy07AxiXMi25UhSO0Y7q0kWVwMH2Ci8TgSpRPH441mHRzba8M9mEltVnEaSBvHBQ/MVqTWNC0haYKVAEEHUGoipKmZQ7hcOkHMVOE7yYHkBSpb39mAlI3iwHpr8a1zjgYCluJOYdxJ7Q5Ea+ZtTfol0fXi3LgpYQRmO77o4qPs96/Ibkyy/Jlh1AuPKBggJSo6m8qjgNKvql2mkmCUEDq0iEoJSANwBimLj1qItEKSduwnDquVHdf0qupUVrJIuok+tOMS5lZWd5EetqXbKaJMk3Mxy1vQcztpEQ4wiUpESPUVy8sKXlSRMcb1l2M6SYhBU0tKStCzmsbhJA8xaD4zQT/AEjeW4l4WKFAwCR5Hhv9ardY08Ea9Y2EqSkQP1oLaL5gKN9REwBPxrWW47pK445fsaWnTmCKa4DpQtSShZzJ56+IP51TizWOEYsXQ4vHNi8hxJEkGAk5ibE6AE1p7d2VKO+TVG2E2F4lSki4QozPEgW4WJq14/FANttpOqgFeW6qkwOZ3I8wi56s/wBmlSo/eJhPpc+QqJqTmPI1xgV5WlqPJI9J/Gpu4zfvK0FDBEzL+k6Gp23sliewdD9k/lS7CuA9k76JQ5HZVT8JXFMyxrh8QJ1B8CD7qmxLaFJPWAERcGq40nqTmSOybkcKK2njCphZTrlrdlUVxtWGS6rq0KuoXznuj6qRprJk8d1WlzZo6vO0STHdJB9IFV7ZGx5hS5vu/OrO/ikstSowKmhbbYtwWzVOGFdgXPM8hXatjpJAzHszF+Jm9qDZ6RQSoJJGsTEb/OjXXYcXHGR76ohFiOjWFUc62wpUAKgrEwIGiuAF+VSMbLabSEIbWEjQB14C9zYK4mvTi4idK8VtRPA1LIZTsnZi8Q6EpGuqjuA1J5Ctf2YyhppKEDKlNh+Z5k3mk2BwrWHTlbTE6nVR8TTBl/sjwpRysNKVgTDnbV94+802aNIdnug3ps24KYAheNUCkJnn+H41DhnAkE8rewD30Li8QZER515h0EqGaLCYHMiPcaXm7kaRV/lC2XlKMSiyjZfCYsfMSD4VSCog5xMaEe3X3Vru00peSptXdI/UEc6z7bewlsCQQtsnUWUOEj8ZrUXyDRd6CVGQ6mx0OhBr1pxQOngRv51EtYiCD7q8GIGg9PzNbN2Xjohi0/SA94xfkNI8yfZR2LxHbH7tz8fGtU3AvFuFA3HC1WjZbvWwreTJ5X/09KBkWoKa1ssezGZCQq+UTG7Mq5J8NPKosc9mWTuFhU6zkRlT3levMmgSm+UXjU8+VZoGzhwdnwvRGExyXZQSOtSJjeRuNcvpytniYt51XOj6FKUt42JMA8IuY91MYeDRTLc29uUKjchIMaUPhsaHBeyhrz5iui6NBejFHP7VLaTEQOOtK5fxKpItu4V5j1Zd4j31GvpaECEIFhxqEH+G2a20jM7EDWbDw4+ykeO287nzIDcKM3CreihSDaG23HTK1eA3VwnEyIg231CFjb2s+qEwzJMA9qJJtbNb1oY48bymeSTH81AbCfyvs5hnAcT2bgG/L18q4ZwLmUSBPM3qFlgXjJ1qf592TB0HuFIGFmb0XisT2PZ6x+FJR1ZZ1g3yKYox5GtKcK5RqSKbM0HnFJME1MrFWJ0sJ9/41DsNttxZQvNMEpiMthed/D211sPZwfMuGG5IEWK1AaDwAJNczLtmPHvuV9mr8b4fAKotkCXZGY6UVhGkPuIacEoVYjTdxGl6EK21NXQf+KhuQojv5zMcssc68240hpEoMnrHUze2XLAuNROtWtpj0m5Tu/6srddWKOlfR/CtMBxtcL6zDIWCSS3nYW46oCe0k9gg7iFC2lFsdFcN84WhzC9U2lxpLS+vWrr21YlDZd70DM2ZlMDtWiKkd6Ipdawq21QVpQp4kg5UrTmKxOgsoRxIpJtLoo1+00YVoENqyKVJk5cuZwz90GPEVeP0ngk2lyTb/hR4/gI8bpaj9jo9g+oW41L/ANA24hUuSesViozJQoZVBKGkq3Ag2vTTZmy8E24UsuKzBbHWBROVtCm3FrhRPanq1KndIFqpeM2AynHsNIlWHxHVLQqblC4BhXiCfAimON2LhlN4ksIfbXhVRK4KHIWU9k6z2ZHiK09vw9nR6pcuFulfjoV0bfMuW0GkpRiFoE5RnQuSU5CkKCUlJ78kjtDtEQINR4BoKQyVpCELDB6wrgqWt0JcZy7oQTcXGWZg0nOEw2HltYW4+lAzrSQO0UhQSmdJketSNbFChh1Bpf0gBcOsSRMndaaF1/FSk00nwb4PRu/t4GOjlwsPx+EbLBUwVPHKhYM3yqW+CCncUpQkHmOdLdqdQhpsspI61HWGTOXMe4OMKCjJv2hwqHE4JpL5QuQ0FwSIKgmbxO+mGM2Fh3GWF4UON9biQyA4QrMCDLgjhF91iKewTU0pLmgbVcRC6g5QQYI0Ne4vGlpvMEyojy9KtGO2VhlIxLbHWBzCglRWQQ4EmF2GkEGohszCP4V7J1wUy1nLioCSqJyZd0mw/HexRLRmGI2uXe+ojlFvZQYxqDYSL799adj+imGYwqT80xCythC1PBSS0lxabymcwAMHSIIvWb4/ZcHsm3O9WRNNHK8SgaGeQv8ApUuz387gQewFWmQTYTppuperCuDQA+yuWgtC0qUmAk6zO47oqGuyXnB9W13deP1vWivnw4j2VSl7Y5K9n51z+11cFeyqplbyLts3C5pVKcqB2pN79kEDfcimnSxrK0oNBJUMq3RAzpQpKSktj7MntEX03VXW3I0oXaWPXmidw3CbEnWJ30j0bc1LuCcETYJ21GdZSvCmBRHWU02ZSG2w8elp3OuSnKoWF7i2+i9ldJOr6oONoyIBulPbEg3TJAknXjeq0XFaz6Vy8rQVzsux4stua4qvrw+LNqTRLi8VncKoCQTOVNkjhA3VzjXlZDBoXNc1Ip2xEAyN+640phRSMHm1ukqi002wpSYwiGHZAgka5b6aieBPGmb3S5kPv4ptClOKZQ20FpGUHRwrhWlhEa3qrYnFwT9E1v8Aqnfm58//AGp4VA3jZkdU0JnRJGsjjzt90ULqGFqq7/G2m7+HwLhN3RZv6XMuDCLdaDbmGemGUQ31VpCQVWMgW0tzrraPS4Ylh9pxTk9cXGFAADJmOVtwAjQRBveOF6orFAf1TRsNU8BE679fGuBjrj6NrskGMpg62Ve4v7BVr0fgTUktVw/jW9PELvs0dva+FxCPnDiHUuqEKSnLlUpIyZgTeOyPTQ75VbZBGGAU4kNZc+UlIMKBix7QgEQaq+y8V9GkZEQEDcfrC5113+JNHDGyf+G3v+rxJPHdMeAFC6ljSUdaXBN8NGtPiYcnYScQk4wuuFasOpxSlISAHMtyAJMG8TeYmm+3ukuGccZfw5fzsrRkaWlCGUJTcpATcEwL/kIrfz2ARkTv3Xv57t3hUeIxAIJ6tAJ4A8SbXtrHgBTmKsaUVwQOUbdlwx/SHDBGJXhku9dihCg5lCGwoyvLFzMn9Igy47bmBXhvm7SsQgJSTlyoAcXFlOmSTeNPwEUFDlSEg60zvFbqLi1tvCNMu9UrEqcdYLORwpLScwgrsb7yBzItNqp1c0Obc6+S7VWWlQfs/Yqnc3V5LZbExJVOUC0SYOsUUeiLxiWzJE/1fPiviIpP1pr0bQWkQCPNKT7x41CNMZf0ReMQ165QZy5wIBJvYcJIBpb1SPsioMRjVEkm5PAAD0AAqNb/AI6D3VC0j//Z",
+            "genre": [
+                "Comedy",
+                "Drama"
+            ],
+            "rating": 9.0,
+            "votes": 5600
+        }
+    ],
+    "banner": [
+        {
+            "id": 1,
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/stream-leadin-web-collection-202210241242.png"
+        }
+    ],
+    "event": [
+        {
+            "id": 1,
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MjArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/comedy-shows-collection-202211140440.png"
+        },
+        {
+            "id": 2,
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NSBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/amusement-parks-banner-desktop-collection-202503251132.png"
+        },
+        {
+            "id": 3,
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NSBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/theatre-shows-collection-202211140440.png"
+        },
+        {
+            "id": 4,
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NSBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/kids-banner-desktop-collection-202503251132.png"
+        },
+        {
+            "id": 5,
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/music-shows-collection-202211140440.png"
+        },
+        {
+            "id": 6,
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NyBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/workshop-and-more-web-collection-202211140440.png"
+        },
+        {
+            "id": 7,
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MyBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/esports-collection-202211140440.png"
+        }
+    ],
+    "Section": {
+        "title": "Premieres",
+        "description": "Brand new releases every Friday",
+        "Premierescards": [
+            {
+                "title": "Quo Vadis",
+                "language": "English",
+                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-250,h-400,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-true,lfo-bottom_left,l-end/et00443290-rqwvxwlsuc-portrait.jpg"
+            },
+            {
+                "title": "The Monkey",
+                "language": "English",
+                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-250,h-400,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_exclusive_v1.png,t-true,lfo-bottom_left,l-end/et00430332-lwetkeyfxa-portrait.jpg"
+            },
+            {
+                "title": "Amal",
+                "language": "French",
+                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-250,h-400,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-true,lfo-bottom_left,l-end/et00393542-hhwlkhfdvk-portrait.jpg"
+            },
+            {
+                "title": "And God Created Women",
+                "language": "French, English, Hindi",
+                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-250,h-400,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-true,lfo-bottom_left,l-end/et00439737-pffsguqgzk-portrait.jpg"
+            },
+            {
+                "title": "Novocaine",
+                "language": "English, Hindi",
+                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-250,h-400,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-true,lfo-bottom_left,l-end/et00436309-uuyxvwyzyf-portrait.jpg"
+            },
+            {
+                "title": "Atul Sabharwal & Subhash Ghai Conversation",
+                "language":"Hinglish",
+                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-250,h-400,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-true,lfo-bottom_left,l-end/et00443883-nqzqpuwjzp-portrait.jpg"
+            },
+             {
+                "title": "Conclave",
+                "language": "English",
+                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00410886-wmdpewrhnb-portrait.jpg"
+            },
+            {
+                "title": "Mansoor Khan & Pooja Bedi Reunite to Celebrate Jo Jeeta Wohi Sikandar at Red Lorry Film Festival",
+                "language": "Hinglish",
+                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-250,h-400,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_exclusive_v1.png,t-true,lfo-bottom_left,l-end/et00430332-lwetkeyfxa-portrait.jpg"
+            },
+            {
+                "title": "Cold Wallet",
+                "language": "English",
+                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00430296-jxaaxuslzn-portrait.jpg"
+            },
+            {
+                "title": "Terrifier 3",
+                "language": "English",
+                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-false,lfo-bottom_left,l-end/et00441277-rpezxmppcs-portrait.jpg"
+            },
+            {
+                "title": "Novocaine",
+                "language": "English",
+                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-250,h-400,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-true,lfo-bottom_left,l-end/et00436309-uuyxvwyzyf-portrait.jpg"
+            },
+            {
+                "title": "Atul Sabharwal & Subhash Ghai Conversation",
+                "language":"Hinglish",
+                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-250,h-400,bg-CCCCCC:l-image,i-discovery-catalog@@icons@@bms_premiere_v1.png,t-true,lfo-bottom_left,l-end/et00443883-nqzqpuwjzp-portrait.jpg"
+            }
+        ]
+    },
+    "concerts": [
+        {
+            "title": "Guns N' Roses: India 2025",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxNyBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00437140-humshtekhq-portrait.jpg",
+            "venue": "Mahalaxmi Race Course, Mumbai",
+            "category": "Concerts"
+        },
+        {
+            "title": "Manhar Udhas Live in concert",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAzIE1heQ%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00420853-ydtqmrqpyw-portrait.jpg",
+            "venue": "Sanjeev Kumar Auditorium, Surat",
+            "category": "Concerts"
+        },
+        {
+            "title": "Aawara Hu",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-TW9uLCAyIEp1bg%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00441826-jglblkzdvz-portrait.jpg",
+            "venue": "Sanjeev Kumar Auditorium, Surat",
+            "category": "Concerts"
+        },
+        {
+            "title": "Vocal Waves (Andaz-E-Rafi)",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCA3IEp1bg%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00443131-acjpurhadz-portrait.jpg",
+            "venue": "Sanjeev Kumar Auditorium, Surat",
+            "category": "Concerts"
+        },
+        {
+            "title": "Karaoke club",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxMCBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00442789-ffbzyushqu-portrait.jpg",
+            "venue": "Osari: Surat",
+            "category": "Club Gigs"
+        },
+        {
+            "title": "Sound Healing Meditation In Meditation Cave",
+            "venue": "Holistica World - Vesu: Surat",
+            "category": "Meditation",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxMCBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00443566-rdttuphesm-portrait.jpg"
+        },
+        {
+            "title": "AN EVENING WITH KRISHNA - Surat &...",
+            "venue": "Sanjeev Kumar Auditorium",
+            "category": "Musical",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-V2VkLCAxMyBBdWc%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00417398-ghnkqfwgsa-portrait.jpg"
+        },
+        {
+            "title": "Travis Scott: Circus Maximus Stadium Tour",
+            "venue": "Jawaharlal Nehru Stadium",
+            "category": "Concert",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxOCBPY3Qgb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00439285-wkznlgurpy-portrait.jpg"
+        },
+        {
+            "title": "Studio XO Bar",
+            "venue": "Multiple Venues",
+            "category": "Concerts",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCAyIE1heSBvbndhcmRz,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end:l-image,i-discovery-catalog@@icons@@bundle-icon-shadow-4x.png,lx-15,ly-15,w-50,l-end/et00393063-njdgvkkjjz-portrait.jpg"
+        }
+    ],
+    "outdoorEvents": [
+        {
+            "title": "Guns N' Roses: India 2025",
+            "venue": "Mahalaxmi Race Course: Mumbai",
+            "category": "Concert",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxNyBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00437140-humshtekhq-portrait.jpg"
+        },
+        {
+            "title": "Rishta-E-Relationship ft. Amit Khuva : Comedy Show",
+            "venue": "Osari: Surat",
+            "category": "Comedy",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCAyMyBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00438231-xuwshpamaq-portrait.jpg"
+        },
+        {
+            "title": "Mumbai Indians vs Gujarat Titans",
+            "venue": "Wankhede Stadium: Mumbai",
+            "category": "Sports",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-VHVlLCA2IE1heQ%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00434290-mhntbrsyqy-portrait.jpg"
+        },
+        {
+            "title": "HUMARE RAM Ft Ashutosh Rana and Rahull R Bhuchar",
+            "venue": "Sanjeev Kumar Auditorium: Surat",
+            "category": "Drama",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxMyBTZXA%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00376688-mkejbrwbgr-portrait.jpg"
+        },
+        {
+            "title": "Aquamagicaa Surat",
+            "venue": "Aquamagicaa: Surat",
+            "category": "Water Park",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-VHVlLCAyOSBBcHIgb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00363752-wvdtabugye-portrait.jpg"
+        },
+        {
+            "title": "Jo Bolta Hai Wohi Hota Hai feat Harsh Gujral",
+            "venue": "Performing Arts Centre: Surat",
+            "category": "Comedy",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCAyIE1heQ%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00145294-kdcjyfmfcq-portrait.jpg"
+        },
+        {
+            "title": "RAJASTHAN ROYALS VS GUJARAT TITANS",
+            "venue": "SAWAI MANSINGH STADIUM, JAIPUR",
+            "category": "Sports",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-TW9uLCAyOCBBcHI%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00437300-apdrmuygcj-portrait.jpg"
+        },
+        {
+            "title": "MRS MARA ONLINE CHE - Surat",
+            "venue": "Sanjeev Kumar Auditorium: Surat",
+            "category": "Drama/Play",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCAxNiBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00442787-tuumezkjay-portrait.jpg"
+        },
+        {
+            "title": "Ladies Aadmi Ft. Vivek Samtani",
+            "venue": "Osari: Surat",
+            "category": "Comedy",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCAyIE1heQ%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00439604-yflfzyyqsj-portrait.jpg"
+        },
+        {
+            "title": "Gaurav Gupta Live - India Tour",
+            "venue": "Sanjeev Kumar Auditorium: Surat",
+            "category": "Comedy",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAyNiBKdWw%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00358468-bavplrpbcj-portrait.jpg"
+        }
+    ],
+    "Therapy": [
+        {
+            "title": "Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
+            "venue": "Sanjeev Kumar Auditorium: Surat",
+            "category": "Comedy",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCAyMCBKdW4%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00355125-zljecjjnjf-portrait.jpg"
+        },
+        {
+            "title": "Rishta-E-Relationship ft. Amit Khuva: Comedy Show",
+            "venue": "Osari: Surat",
+            "category": "Comedy",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCAyMyBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00438231-xuwshpamaq-portrait.jpg"
+        },
+        {
+            "title": "Vipul Goyal Unleashed",
+            "venue": "Performing Arts Centre: Surat",
+            "category": "Comedy",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCAyNyBKdW4%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00439060-cwdqasfsqc-portrait.jpg"
+        },
+        {
+            "title": "Kal Ki Chinta Nahi Karta ft. Ravi Gupta",
+            "venue": "Pandit Dindayal Upadhyay Indoor Stadium: Surat",
+            "category": "Comedy",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxMiBKdWw%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00329412-zyklrftyne-portrait.jpg"
+        },
+        {
+            "title": "Nishant Tanwar Live - India Tour",
+            "venue": "Venue To Be Announced: Surat",
+            "category": "Comedy",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCA4IEp1bg%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00420221-fnmtlyvxdt-portrait.jpg"
+        },
+        {
+            "title": "Majja Ni Life - Gujarati Standup Comedy by Raghav Thakkar",
+            "venue": "Venue To Be Announced: Surat",
+            "category": "Comedy",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAyNCBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00416768-xmecdvvyam-portrait.jpg"
+        },
+        {
+            "title": "Rajat Chauhan Live",
+            "venue": "Osari: Surat",
+            "category": "Comedy",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCA4IEp1bg%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00389543-xynetqhyms-portrait.jpg"
+        },
+        {
+            "title": "Punit Pania Live In Lower Parel",
+            "venue": "The Pavilion by QUORUM: Mumbai",
+            "category": "Comedy",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxMSBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00130545-uqeuyjzqts-portrait.jpg"
+        },
+        {
+            "title": "Tough Hai ft. Amit Tiwari",
+            "venue": "Hub The Club: Surat",
+            "category": "Comedy",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAyMiBKdW4%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00440332-dbeltrtqms-portrait.jpg"
+        }
+    ],
+    "popular-events": [
+        {
+            "title": "Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
+            "venue": "Sanjeev Kumar Auditorium: Surat",
+            "category": "Comedy",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCAyMCBKdW4%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00355125-zljecjjnjf-portrait.jpg"
+        },
+        {
+            "title": "Guns N' Roses: India 2025",
+            "venue": "Mahalaxmi Race Course: Mumbai",
+            "category": "Concert",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxNyBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00437140-humshtekhq-portrait.jpg"
+        },
+        {
+            "title": "DOWNTOWN BHANGRA INDIA TOUR 2.0",
+            "venue": "S.M.C Umra Community Hall: Surat",
+            "category": "Music",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAzMSBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00442881-zepppxlgqe-portrait.jpg"
+        },
+        {
+            "title": "Magic Beans - RHYME AND RHYTHM (OFFLINE)",
+            "venue": "Magic Beans - Kemps Corner: Mumbai",
+            "category": "Kids",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-V2VkLCAzMCBBcHIgb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00131529-lsbsvrxxfy-portrait.jpg"
+        },
+        {
+            "title": "Solve Rubik' Cube In 6 Steps!",
+            "venue": "Happy Skills Events: Ghatkopar",
+            "category": "Workshop",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-VGh1LCAxIE1heQ%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00361252-tvtkwddtpc-portrait.jpg"
+        },
+        {
+            "title": "Kids Chess Championship (Online)",
+            "venue": "Your Place and Your Time: India",
+            "category": "Competition",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxMCBNYXkgb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00443412-hazqgyszvy-portrait.jpg"
+        },
+        {
+            "title": "Belly Dance Fusion choreography workshop",
+            "venue": "Namma Nook: Bengaluru",
+            "category": "Workshop",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAzIE1heQ%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00357121-luyhkuaewz-portrait.jpg"
+        },
+        {
+            "title": "Solve The Rubik's Cube, Sharpen 6 Vital Skills",
+            "venue": "Happy Skills Events: Ghatkopar",
+            "category": "Workshop",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-VGh1LCAxIE1heQ%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00367500-rtkfzvdsdw-portrait.jpg"
+        },
+        {
+            "title": "Magic Beans - The Wonderful World of Jolly Phonics",
+            "venue": "Online Streaming",
+            "category": "Kids",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-V2VkLCAzMCBBcHIgb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00131529-lsbsvrxxfy-portrait.jpg"
+        },
+        {
+            "title": "THE FINAL COUNTDOWN (SURAT)",
+            "venue": "Rebounce: Surat",
+            "category": "New Year Party",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-V2VkLCAzMSBEZWM%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00375326-ylutbpwgek-portrait.jpg"
+        }
+    ],
+    "plays": [
+        {
+            "title": "GUJARATI PLAY: JETHALAL NE JACKPOT LAGYO",
+            "venue": "Gujarati",
+            "language": "Gujarati",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxNyBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00443033-acfgyeethk-portrait.jpg"
+        },
+        {
+            "title": "Aishwarya Beauty Parlour - Surat",
+            "venue": "Gujarati",
+            "language": "Gujarati",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-VHVlLCAyOSBBcHI%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00434693-ewzcqqavas-portrait.jpg"
+        },
+        {
+            "title": "Jar Tar Chi Goshta",
+            "venue": "Marathi",
+            "language": "Marathi",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCA5IE1heSBvbndhcmRz,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00443124-szmtxxcayl-portrait.jpg"
+        },
+        {
+            "title": "Chikka on Roll",
+            "venue": "Hindi",
+            "language": "Hindi",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCAzMCBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00387309-tbkfyshqhm-portrait.jpg"
+        },
+        {
+            "title": "TRUMBAK TRAN BAYRIWALO - Surat",
+            "venue": "Gujarati",
+            "language": "Gujarati",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxIEp1bg%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00415365-fmtdfbjnnz-portrait.jpg"
+        },
+        {
+            "title": "HUMARE RAM Ft Ashutosh Rana and Rahull R Bhuchar",
+            "venue": "Hindi",
+            "language": "Hindi",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxMyBTZXA%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00376688-mkejbrwbgr-portrait.jpg"
+        },
+        {
+            "title": "MRS MARA ONLINE CHE - Surat ",
+            "venue": "Gujarati",
+            "language": "Gujarati",
+            "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCAxNiBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00442787-tuumezkjay-portrait.jpg"
+        }
+    ]
+}
