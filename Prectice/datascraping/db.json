@@ -1,0 +1,398 @@
+{
+    "logo": {
+        "img": "https://www.rnwmultimedia.edu.in/assets/img/photos/rnw-logo.png"
+    },
+    "menu": [
+        "home",
+        {
+            "STD10th&12th ": [
+                "ita-cs",
+                "animation",
+                "bac"
+            ]
+        },
+        {
+            "CareerCourses": [
+                "Designing",
+                {
+                    "Designing": [
+                        "Master in Graphic Design",
+                        "Master in UI/UX & Graphic",
+                        "Design",
+                        "UI/UX Design course",
+                        "Master in Game Design"
+                    ]
+                },
+                "Coding & Programming",
+                {
+                    "Coding&Programming": [
+                        "Master in Web Designing",
+                        "Master in Front End Developing",
+                        "Master in Web Development",
+                        "Master in Android Development",
+                        "Master in iOS Development",
+                        "Master in Game Development",
+                        "Master in Flutter",
+                        "Advance in Python",
+                        "Full Stack Development"
+                    ]
+                },
+                "Visualization",
+                {
+                    "Visualization": [
+                        "Master in Animation",
+                        "Animation & VFX 2 year"
+                    ]
+                }
+            ]
+        },
+        {
+            "Courses": [
+                "Programming",
+                {
+                    "Programming": [
+                        "Java",
+                        "Android",
+                        "iOS",
+                        "React Native",
+                        "React.Js",
+                        "Node.Js",
+                        "PHP",
+                        "Unity C# Script",
+                        "Angular Js",
+                        "laravel",
+                        "Python"
+                    ]
+                },
+                "Graphic Design",
+                {
+                    "GraphicDesign": [
+                        "Photoshop",
+                        "Illustrator",
+                        "Figma",
+                        "Corel Draw",
+                        "After Effects",
+                        "Poster Designing"
+                    ]
+                },
+                "Video Editing",
+                {
+                    "VideoEditing": [
+                        "Video Editing",
+                        "Davinci Resolve Course"
+                    ]
+                },
+                "Short Term",
+                {
+                    "Shortterm": [
+                        "Microsoft Office",
+                        "Cyber Security",
+                        "Full Stack Development",
+                        "Bootcamp",
+                        "Data Analysis",
+                        "Autodesk Autocad course",
+                        "Digital Marketing",
+                        "Visual Effects Course"
+                    ]
+                },
+                "Fronted Coding",
+                {
+                    "FrontedCoding": [
+                        "Bootstrap",
+                        "HTML5 CSS3"
+                    ]
+                },
+                "Project training",
+                {
+                    "Projecttraining": [
+                        "PHP",
+                        "Android Training",
+                        "iOS",
+                        "Java",
+                        "Flutter",
+                        "Python"
+                    ]
+                },
+                "Foundation Courses",
+                {
+                    "FoundationCourses": [
+                        "CCC",
+                        "C & C++",
+                        "Software Development Foundation"
+                    ]
+                },
+                "Corporate Training",
+                {
+                    "CorporateTraining": [
+                        "Public Speaking Course",
+                        "Entrepreneurship Bootcamp"
+                    ]
+                },
+                "Next-GEN technologies",
+                {
+                    "Next-GENtechnologies": [
+                        "Data Science & AI-ML Python",
+                        "AR-VR"
+                    ]
+                },
+                "Accounting",
+                {
+                    "Accounting": [
+                        "Diploma in Practical Accounting & Taxation"
+                    ]
+                }
+            ]
+        },
+        {
+            "AboutUs": [
+                "Group of institutes",
+                {
+                    "Groupofinstitutes": [
+                        "RNW Designing institute",
+                        "RNW International"
+                    ]
+                },
+                "Career With Us",
+                "Affiliations / Authorised",
+                "Press Notes"
+            ]
+        },
+        {
+            "StudentCorner ": [
+                "Apply job",
+                "Placement",
+                "Company Visit",
+                "Expert Session",
+                "Placement Drive",
+                "Grievance"
+            ]
+        },
+        "Contact Us"
+    ],
+    "slider": [
+        "",
+        "",
+        "",
+        ""
+    ],
+    "stats": [
+    {
+      "icon": "user",
+      "count": "40,000+",
+      "label": "Students Trained"
+    },
+    {
+      "icon": "user",
+      "count": "50+",
+      "label": "Approved Courses"
+    },
+    {
+      "icon": "briefcase",
+      "count": "1500+",
+      "label": "Companies Tie-Ups"
+    },
+    {
+      "icon": "building",
+      "count": "22+",
+      "label": "Branches"
+    },
+    {
+      "icon": "certificate",
+      "count": "8",
+      "label": "Certification"
+    }
+  ],
+    "RightCourse ": [
+        "Web Designing",
+        "iOS Development",
+        "Web Development",
+        "Android Development",
+        "Animation",
+        "AI & Data Science",
+        "Game Design & Development",
+        "Full Stack Development",
+        "UI-UX & Graphics Design"
+    ],
+    "Mentor": [
+        {
+            "name": {
+                "name": "Mr. Alok Kumar",
+                "designation": "Director UX @ Myntra Ex Walmart, Microsoft, Vedantu, BlueStonr",
+                "Mentor": "Mentor : UI/UX"
+            }
+        },
+        {
+            "name": {
+                "name": "Mr. Piyush Jinjala",
+                "designation": "Compositor Associate at Sony Pictures Imageworks, Canada",
+                "Mentor": "Mentor : Animation"
+            }
+        },
+        {
+            "name": {
+                "name": "Mr. Jemish Lakhani",
+                "designation": "Founder & CEO of XSQUADS Tech Pvt Ltd",
+                "Mentor": "Mentor : Game Design & Development"
+            }
+        },
+        {
+            "name": {
+                "name": "Mr. Mohit Rajput",
+                "designation": "Professional Bollywood Movie Poster Designer",
+                "Mentor": "Mentor : Graphic Design"
+            }
+        }
+    ],
+    "Students&Parents": {
+        "tagline": "Legacy of 100% Trust with Students & Parents",
+        "discription": "Legacy of 100% Trust with Students & ParentsAll types of IT & Multimedia technology-oriented knowledge-providing organizations means Red & White, where all the syllabus are developed on a research basis. some of the benefits to study in Red & White...",
+        "banifits": [
+            "100% field Oriented Training",
+            "Courses according to the international approach.",
+            "25% Scholarship to an orphan student",
+            "Growth MindsetCulture",
+            "Company Visit",
+            "Multiple Training Center",
+            "International collaborations like ISO Approved.",
+            "A wonderful campus where education is a perfect combination of humour with knowledge and personality development.",
+            "Day & Events Celebration"
+        ]
+    },
+    "TrainingInstitute": {
+        "title": "Red and White Skill Education",
+        "discription": "Red and White Skill Education is one of the best web design training institutes in Surat , offering an advanced web design course module. Students who are taking web design classes with us are extremely satisfied. Here are a few reasons why students prefer us:",
+        "banifits": [
+            "Certified Course",
+            "Job Support",
+            "Various Events",
+            "Multiple Training Centers",
+            "Industry-Oriented Training",
+            "Multiple Placement Partners",
+            "Trusted by Students",
+            "World-Class Infrastructure"
+        ],
+        "button": "Apply Now"
+    },
+    "We-are-in": [
+        {
+            "location": {
+                "city": "surat",
+                "location": "in 8 locations"
+            }
+        },
+        {
+            "location": {
+                "city": "Ahmedabad",
+                "location": "in 6 locations"
+            }
+        },
+        {
+            "location": {
+                "city": "Rajkot",
+                "location": "in 2 locations"
+            }
+        },
+        {
+            "location": {
+                "city": "Amreli",
+                "location": "in 1 locations"
+            }
+        },
+        {
+            "location": {
+                "city": "Anand",
+                "location": "in 1 locations"
+            }
+        },
+        {
+            "location": {
+                "city": "Bhavnagar",
+                "location": "in 1 locations"
+            }
+        },
+        {
+            "location": {
+                "city": "Navsari",
+                "location": "in 1 locations"
+            }
+        },
+        {
+            "location": {
+                "city": "Gandhinagar",
+                "location": "in 1 locations"
+            }
+        },
+        {
+            "location": {
+                "city": "Bharuch",
+                "location": "in 1 locations"
+            }
+        }
+    ],
+    "Trending-Courses": [
+        {}
+    ],
+    "World-class": {
+        "title": "World-class infrastructure to develop student careers at the international level.",
+        "discription": "One of the most trusted and certified Computer training institute for IT course in Surat city. We conduct wide range computers courses and software training course that are highly in demand. Every class that is conducted over here is fully loaded with practical exposure. There multiple information technology institute and classes but what makes us different is knowledge along with certificate."
+    },
+    "Valuable": {
+        "title": "Valuable Reviews By Students",
+        "reviews": [
+            {
+                "student": "RWn.Himanchu Kachhadiya",
+                "review": "“When I joined GIM after completing Std. 10, I felt that I wanted to be developer, but when I heard about this GIM course and saw it, I feltthat I should recognize my inner strength and then decide what I am made for. "
+            }
+        ]
+    },
+    "footer": [
+        {
+            "contactUs": {
+                "title": "CONTACT US",
+                "branches": [
+                    "A K Road",
+                    "Yogi Chowk",
+                    "Sarthana",
+                    "Mota Varachha",
+                    "Ved Road",
+                    "Adajan",
+                    "Dindoli",
+                    "Vesu"
+                ],
+                "phone": "+91 7878 444 333",
+                "franchiseEmail": "info@rnwmultimedia.edu.in"
+            },
+            "trendingCourses": [
+                "PHP",
+                "Project Training Surat",
+                "Android Training Course",
+                "Web Designing Training Course",
+                "Full Stack Development Course"
+            ],
+            "importantPages": [
+                "Home",
+                "Contact Us",
+                "About Us",
+                "Blog",
+                "Events",
+                "Approval",
+                "Students T&C",
+                "Sitemap",
+                "Cities Sitemap",
+                "Student Login"
+            ],
+            "beRecruiter": {
+                "options": [
+                    "Company Login/Register",
+                    "Company T&C",
+                    "Placement Student Login",
+                    "Placement Student T&C"
+                ],
+                "contact": {
+                    "phone": "+91 93313 13196",
+                    "email": "placement@rnwmultimedia.edu.in"
+                }
+            }
+        }
+    ]
+}
