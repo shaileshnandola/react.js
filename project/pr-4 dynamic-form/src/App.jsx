@@ -1,10 +1,8 @@
-import { useState } from "react"
+import { useState } from "react";
+import "./App.css";
 
 function App() {
-
-  const [input, setInput] = useState([
-    { fullName: '', email: '', salary: '' }
-  ])
+  const [input, setInput] = useState([{ fullName: "", email: "", salary: "" }]);
 
   const handleChange = (index, event) => {
     const { name, value } = event.target;
@@ -13,90 +11,82 @@ function App() {
     setInput(updatedRows);
   };
 
-  const addform = () => {
-    let newfield = { fullName: '', email: '', salary: '' };
-    setInput([...input, newfield])
-  }
-
-  const deleteform = (i) => {
-    let rmvbtn = input.filter((val, index) => {
-      return index != i;
-    })
-    alert("form is remove")
-    setInput(rmvbtn)
-  }
-  const handleSubmit = () => {
-    console.log(input);
-    setInput(input)
-    alert("fom is submited")
-    setInput([{ fullName: '', email: '', salary: '' }]);
-
+  const addForm = () => {
+    setInput([...input, { fullName: "", email: "", salary: "" }]);
   };
+
+  const deleteForm = (i) => {
+    if (window.confirm("Are you sure you want to remove this entry?")) {
+      const updatedList = input.filter((_, index) => index !== i);
+      setInput(updatedList);
+    }
+  };
+
+  const handleSubmit = () => {
+    for (let item of input) {
+      if (!item.fullName || !item.email || !item.salary) {
+        alert("Please fill all fields before submitting.");
+        return;
+      }
+    }
+    console.log(input);
+    alert("Form is submitted");
+    setInput([{ fullName: "", email: "", salary: "" }]);
+  };
+
   return (
-    <>
-      <div align="center">
-        <h2>Dynamic form</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Full Name</th>
-              <th>Email Address</th>
-              <th>Salary</th>
-              <th>
-                <button onClick={() => addform()}>+</button>&nbsp; &nbsp;
-              </th>
+    <div className="container">
+      <h2>Dynamic Form</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Salary</th>
+            <th>
+              <button className="add-btn" onClick={addForm}>+</button>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {input.map((data, index) => (
+            <tr key={index}>
+              <td>
+                <input
+                  type="text"
+                  name="fullName"
+                  value={data.fullName}
+                  onChange={(e) => handleChange(index, e)}
+                />
+              </td>
+              <td>
+                <input
+                  type="email"
+                  name="email"
+                  value={data.email}
+                  onChange={(e) => handleChange(index, e)}
+                />
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="salary"
+                  value={data.salary}
+                  onChange={(e) => handleChange(index, e)}
+                />
+              </td>
+              <td>
+                {index !== 0 && (
+                  <button className="delete-btn" onClick={() => deleteForm(index)}>×</button>
+                )}
+              </td>
             </tr>
-          </thead>
-          <tbody>
-            {
-              input.map((data, index) => {
-                return (
-                  <tr key={index}>
-                    <td>
-                      <input
-                        type="text"
-                        name="fullName"
-                        value={data.fullName}
-                        onChange={(e) => handleChange(index, e)}
-                      />
-                    </td>
-                    <td>
-                      <input
-                        type="email"
-                        name="email"
-                        value={data.email}
-                        onChange={(e) => handleChange(index, e)}
-                      />
-                    </td>
-                    <td>
-                      <input
-                        type="text"
-                        name="salary"
-                        value={data.salary}
-                        onChange={(e) => handleChange(index, e)}
-                      />
-                    </td>
-                    <td>
-                      {
-                        index !== 0 && (
-                          <button className="delete-btn" onClick={() => deleteform(index)}>X</button>
-                        )
-                      }
-                      
-                    </td>
-
-                  </tr>
-                )
-              })
-            }
-          </tbody>
-        </table>
-
-        <button type="button" onClick={handleSubmit}>Submit</button>
-
-      </div>
-    </>
-  )
+          ))}
+        </tbody>
+      </table>
+      <button className="submit-btn" onClick={handleSubmit}>Submit</button>
+    </div>
+  );
 }
 
-export default App
+export default App;
