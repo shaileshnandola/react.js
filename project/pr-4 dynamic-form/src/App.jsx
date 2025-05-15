@@ -18,7 +18,7 @@ function App() {
     setInput([...input, newfield])
   }
 
-  const deleteRform = (i) => {
+  const deleteform = (i) => {
     let rmvbtn = input.filter((val, index) => {
       return index != i;
     })
@@ -77,7 +77,12 @@ function App() {
                       />
                     </td>
                     <td>
-                      <button className="delete-btn" onClick={() => deleteRform(index)}>X</button>
+                      {
+                        index !== 0 && (
+                          <button className="delete-btn" onClick={() => deleteform(index)}>X</button>
+                        )
+                      }
+                      
                     </td>
 
                   </tr>
