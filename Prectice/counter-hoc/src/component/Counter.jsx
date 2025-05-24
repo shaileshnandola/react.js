@@ -1,17 +1,35 @@
 import React, { useState } from 'react';
 
 const Counter = (Wrappedcomponent) => {
-  const [no, setNo] = useState(0);
-
-
   return () => {
-    const handleIncrement = () => setNo(no + 1);
+    const [no, setNo] = useState(0);
+
+    const [user,setUser]=useState([
+      {name:"John",age:25},
+      {name:"Anna",age:30},
+      {name:"Peter",age:35}
+      
+    ])
+    const[alluser,setAllUser]=useState([])
+
+    const showuser=()=>{
+      setAllUser(user)
+    }
+
+    const Increment = () =>
+      setNo(no + 1);
+
+    const Decrement = () =>
+      setNo(no - 1);
 
     return (
       <div>
-        <h2>Counter</h2>
-        <h3>Count: {no}</h3>
-        <button onClick={handleIncrement(inc)}>+</button>
+        <Wrappedcomponent cnt={no}
+          inc={Increment}
+          dec={Decrement} 
+          showuserbtn={showuser}
+          alluser={alluser}
+        />
       </div>
     );
   };

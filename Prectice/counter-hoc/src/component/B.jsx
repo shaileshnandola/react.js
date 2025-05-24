@@ -1,12 +1,14 @@
 import Counter from './Counter';
-const B = (no,inc) => {
+const componentB = ({ cnt, inc, dec }) => {
     return (
-        <div>
-            <h2>Counter B</h2>
-            <h3>Count: {no}</h3>
-            <button onClick={inc}>+</button>
+        <div align="center">
+            <h2>B component</h2>
+            <h3>Count: {cnt}</h3>
+            <button onClick={() => inc()}>+</button>
+            <button onClick={() => dec()}>-</button>
+
         </div>
     );
 };
-let componentB=Counter(B)
-export default componentB;
+let B = Counter(componentB)
+export default B;
