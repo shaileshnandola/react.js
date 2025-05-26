@@ -136,7 +136,7 @@ function PopularProducts() {
                                 <a
                                     href="#"
                                     className="btn btn-light fw-semibold px-4 text-success"
-                                    style={{ borderRadius: "8px" }}
+                                    style={{ borderRadius: "8px",}}
                                 >
                                     Shop Now
                                 </a>

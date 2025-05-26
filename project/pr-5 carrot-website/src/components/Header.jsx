@@ -4,7 +4,6 @@ import './Header.css';
 const Header = () => {
   return (
     <div>
-
       <div className="container">
         <div className="header-container">
           <div className="header-logo">
@@ -21,7 +20,7 @@ const Header = () => {
               <li><a className="dropdown-item" href="#">Vegetables</a></li>
               <li><a className="dropdown-item" href="#">Dairy</a></li>
             </ul>
-            <button className="btn btn-success" type="button">
+            <button className="btn btn-success" type="submit">
               <i className="fa fa-search" />
             </button>
           </div>

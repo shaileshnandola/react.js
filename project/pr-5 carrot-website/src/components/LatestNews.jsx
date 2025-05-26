@@ -1,5 +1,5 @@
 import React from "react";
-import { FaArrowRight } from "react-icons/fa";
+
 
 const LatestNews = () => {
   return (
@@ -18,7 +18,7 @@ const LatestNews = () => {
                 Urna pretium elit mauris cursus at elit Vestibulum.
               </h5>
               <button className="btn p-0 text-success">
-                Read More <FaArrowRight />
+                Read More <i className="fa-solid fa-arrow-right"></i>
               </button>
             </div>
             <div className="position-relative">
@@ -54,7 +54,7 @@ const LatestNews = () => {
                 Best guide to Shopping for organic ingredients.
               </h5>
               <button className="btn p-0 text-success">
-                Read More <FaArrowRight />
+                Read More<i className="fa-solid fa-arrow-right"></i>
               </button>
             </div>
             <div className="position-relative">
@@ -90,7 +90,7 @@ const LatestNews = () => {
                 Cursus at elit vestibulum urna pretium elit mauris.
               </h5>
               <button className="btn p-0 text-success">
-                Read More <FaArrowRight />
+                Read More<i className="fa-solid fa-arrow-right"></i>
               </button>
             </div>
             <div className="position-relative">

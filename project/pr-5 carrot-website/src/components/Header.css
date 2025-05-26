@@ -30,9 +30,9 @@
 .header-right-section {
     display: none;
 }
-.hover-dropdown:hover .dropdown-menu {
+.nav-item.dropdown:hover .dropdown-menu {
   display: block;
-  margin-top: 0; 
+  margin-top: 0;
 }
 
 @media (min-width: 992px) {
