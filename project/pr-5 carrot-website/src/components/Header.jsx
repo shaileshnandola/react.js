@@ -1,158 +1,112 @@
-import { useState } from 'react';
-import { Container, FormControl, InputGroup, Dropdown, Button, Navbar, Nav, } from 'react-bootstrap';
-import { CiSearch } from 'react-icons/ci';
-import { LuPhone } from 'react-icons/lu';
-import { VscAccount } from 'react-icons/vsc';
-import { IoCartOutline } from 'react-icons/io5';
-import { FaRegHeart, FaBars } from 'react-icons/fa';
+import React from 'react';
+import './Header.css';
 
 const Header = () => {
-  const [showCategories, setShowCategories] = useState(false);
-  const [showProduct, setShowProduct] = useState(false);
-  const [showPages, setShowPages] = useState(false);
-  const [showBlog, setShowBlog] = useState(false);
-  const [showElement, setShowElement] = useState(false);
-
   return (
     <div>
-      <Container className="py-3 d-flex flex-wrap justify-content-between align-items-center gap-3">
-        <div className="d-flex align-items-center">
-          <img
-            src="https://img.icons8.com/emoji/48/carrot-emoji.png"
-            alt="logo"
-            width="40"
-          />
-          <h4 className="mb-0 ms-2">Carrot</h4>
-        </div>
-        <InputGroup className="flex-grow-1 w-100 w-md-auto" style={{ maxWidth: '600px' }}>
-          <FormControl placeholder="Search For items..." />
-          <Dropdown>
-            <Dropdown.Toggle variant="outline-secondary">All Categories</Dropdown.Toggle>
-            <Dropdown.Menu>
-              <Dropdown.Item>Fruits</Dropdown.Item>
-              <Dropdown.Item>Vegetables</Dropdown.Item>
-              <Dropdown.Item>Dairy</Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown>
-          <Button variant="success">
-            <CiSearch />
-          </Button>
-        </InputGroup>
-        <div className="d-none d-lg-flex align-items-center gap-4">
-          <div className="d-flex align-items-center gap-1">
-            <VscAccount /> Account
+
+      <div className="container">
+        <div className="header-container">
+          <div className="header-logo">
+            <img src="https://img.icons8.com/emoji/48/carrot-emoji.png" alt="logo" />
+            <h4>Carrot</h4>
           </div>
-          <div className="d-flex align-items-center gap-1">
-            <FaRegHeart /> Wishlist
+          <div className="input-group search-bar-group">
+            <input type="text" className="form-control" placeholder="Search For items..." />
+            <button className="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              All Categories
+            </button>
+            <ul className="dropdown-menu">
+              <li><a className="dropdown-item" href="#">Fruits</a></li>
+              <li><a className="dropdown-item" href="#">Vegetables</a></li>
+              <li><a className="dropdown-item" href="#">Dairy</a></li>
+            </ul>
+            <button className="btn btn-success" type="button">
+              <i className="fa fa-search" />
+            </button>
           </div>
-          <div className="d-flex align-items-center gap-1">
-            <IoCartOutline /> Cart
+          <div className="header-right-section">
+            <div><i className="fa-solid fa-user"></i> Account</div>
+            <div><i className="fa fa-heart" /> Wishlist</div>
+            <div><i className="fa-solid fa-cart-shopping"></i> Cart</div>
           </div>
         </div>
-      </Container>
-      <Navbar bg="light" expand="lg" className="border-top">
-        <Container>
-          <Navbar.Toggle className="d-flex" aria-controls="basic-navbar-nav">
-            <FaBars />
-          </Navbar.Toggle>
-          <div className="d-flex d-lg-none align-items-center gap-2 ms-3">
-            <LuPhone />
-            <span style={{ fontWeight: 600 }}>+123 (456) (7890)</span>
+      </div>
+
+      <nav className="navbar navbar-expand-lg bg-light border-top">
+        <div className="container">
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+            <i className="fa fa-bars" />
+          </button>
+
+          <div className="phone-number-mobile">
+            <i className="fa-solid fa-phone"></i>
+            <span>+123 (456) (7890)</span>
           </div>
 
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto gap-lg-4 gap-2 mt-3 mt-lg-0">
-              <Nav.Link href="#" style={{ fontWeight: 600 }}>
-                Home
-              </Nav.Link>
-              <Dropdown
-                show={showCategories}
-                onMouseEnter={() => setShowCategories(true)}
-                onMouseLeave={() => setShowCategories(false)}
-              >
-                <Dropdown.Toggle variant="none" style={{ fontWeight: 600 }}>
-                  Categories
-                </Dropdown.Toggle>
-                <Dropdown.Menu>
-                  <Dropdown.Item>Shop Left sidebar</Dropdown.Item>
-                  <Dropdown.Item>Shop Right sidebar</Dropdown.Item>
-                  <Dropdown.Item>Full Width</Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
+          <div className="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul className="navbar-nav ms-auto gap-lg-4 gap-2 mt-3 mt-lg-0">
+              <li className="nav-item"><a className="nav-link fw-bold" href="#">Home</a></li>
 
-              <Dropdown
-                show={showProduct}
-                onMouseEnter={() => setShowProduct(true)}
-                onMouseLeave={() => setShowProduct(false)}
-              >
-                <Dropdown.Toggle variant="none" style={{ fontWeight: 600 }}>
-                  Product
-                </Dropdown.Toggle>
-                <Dropdown.Menu>
-                  <Dropdown.Item>Product Left sidebar</Dropdown.Item>
-                  <Dropdown.Item>Product Right sidebar</Dropdown.Item>
-                  <Dropdown.Item>Product Full Width</Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown">Categories</a>
+                <ul className="dropdown-menu">
+                  <li><a className="dropdown-item" href="#">Shop Left sidebar</a></li>
+                  <li><a className="dropdown-item" href="#">Shop Right sidebar</a></li>
+                  <li><a className="dropdown-item" href="#">Full Width</a></li>
+                </ul>
+              </li>
 
-              <Dropdown
-                show={showPages}
-                onMouseEnter={() => setShowPages(true)}
-                onMouseLeave={() => setShowPages(false)}
-              >
-                <Dropdown.Toggle variant="none" style={{ fontWeight: 600 }}>
-                  Pages
-                </Dropdown.Toggle>
-                <Dropdown.Menu>
-                  <Dropdown.Item>About Us</Dropdown.Item>
-                  <Dropdown.Item>Contact Us</Dropdown.Item>
-                  <Dropdown.Item>Car</Dropdown.Item>
-                  <Dropdown.Item>Checkout</Dropdown.Item>
-                  <Dropdown.Item>Track Order</Dropdown.Item>
-                  <Dropdown.Item>Wishlist</Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown">Product</a>
+                <ul className="dropdown-menu">
+                  <li><a className="dropdown-item" href="#">Product Left sidebar</a></li>
+                  <li><a className="dropdown-item" href="#">Product Right sidebar</a></li>
+                  <li><a className="dropdown-item" href="#">Product Full Width</a></li>
+                </ul>
+              </li>
 
-              <Dropdown
-                show={showBlog}
-                onMouseEnter={() => setShowBlog(true)}
-                onMouseLeave={() => setShowBlog(false)}
-              >
-                <Dropdown.Toggle variant="none" style={{ fontWeight: 600 }}>
-                  Blog
-                </Dropdown.Toggle>
-                <Dropdown.Menu>
-                  <Dropdown.Item>Left Sidebar</Dropdown.Item>
-                  <Dropdown.Item>Right Sidebar</Dropdown.Item>
-                  <Dropdown.Item>Full Width</Dropdown.Item>
-                  <Dropdown.Item>Detail Left Sidebar</Dropdown.Item>
-                  <Dropdown.Item>Detail Right Sidebar</Dropdown.Item>
-                  <Dropdown.Item>Detail Full Width</Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown">Pages</a>
+                <ul className="dropdown-menu">
+                  <li><a className="dropdown-item" href="#">About Us</a></li>
+                  <li><a className="dropdown-item" href="#">Contact Us</a></li>
+                  <li><a className="dropdown-item" href="#">Car</a></li>
+                  <li><a className="dropdown-item" href="#">Checkout</a></li>
+                  <li><a className="dropdown-item" href="#">Track Order</a></li>
+                  <li><a className="dropdown-item" href="#">Wishlist</a></li>
+                </ul>
+              </li>
 
-              <Dropdown
-                show={showElement}
-                onMouseEnter={() => setShowElement(true)}
-                onMouseLeave={() => setShowElement(false)}
-              >
-                <Dropdown.Toggle variant="none" style={{ fontWeight: 600 }}>
-                  Element
-                </Dropdown.Toggle>
-                <Dropdown.Menu>
-                  <Dropdown.Item>Product</Dropdown.Item>
-                  <Dropdown.Item>Typography</Dropdown.Item>
-                  <Dropdown.Item>Button</Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
-            </Nav>
-            <div className="d-none d-lg-flex ms-auto align-items-center gap-2">
-              <LuPhone />
-              <span style={{ fontWeight: 600 }}>+123 (456) (7890)</span>
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown">Blog</a>
+                <ul className="dropdown-menu">
+                  <li><a className="dropdown-item" href="#">Left Sidebar</a></li>
+                  <li><a className="dropdown-item" href="#">Right Sidebar</a></li>
+                  <li><a className="dropdown-item" href="#">Full Width</a></li>
+                  <li><a className="dropdown-item" href="#">Detail Left Sidebar</a></li>
+                  <li><a className="dropdown-item" href="#">Detail Right Sidebar</a></li>
+                  <li><a className="dropdown-item" href="#">Detail Full Width</a></li>
+                </ul>
+              </li>
+
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown">Element</a>
+                <ul className="dropdown-menu">
+                  <li><a className="dropdown-item" href="#">Product</a></li>
+                  <li><a className="dropdown-item" href="#">Typography</a></li>
+                  <li><a className="dropdown-item" href="#">Button</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <div className="phone-number ms-auto">
+              <i className="fa-solid fa-phone"></i>
+              <span>+123 (456) (7890)</span>
             </div>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+          </div>
+        </div>
+      </nav>
     </div>
   );
 };

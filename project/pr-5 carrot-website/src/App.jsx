@@ -2,6 +2,7 @@ import Banner from "./components/Banner";
 import Categories from "./components/Categories";
 import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import PopularProducts from "./components/PopularProducts";
 import Sneck from "./components/Sneck";
 import Product from "./components/Product";

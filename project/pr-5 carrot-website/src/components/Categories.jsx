@@ -1,116 +1,103 @@
 import React from 'react';
-import { Container, Col, Card, Row, Button } from 'react-bootstrap';
 
 const Categories = () => {
     return (
-        <Container style={{ paddingTop: '100px', paddingBottom: '50px' }}>
-            <Row>
-                <Col xs={12} md={4}>
-                    <Card className="text-center border-0 mb-2" style={{ backgroundColor: '#f8f9fa' }}>
-                        <Card.Body>
-                            <h5 style={{ margin: 0, fontWeight: '600', color: '#6ec186' }}>Cake & Milk</h5>
-                            <p style={{ color: '#6c757d' }}>(65 items)</p>
-                        </Card.Body>
-                    </Card>
-                    <Card className="text-center border-0 mb-2" style={{ backgroundColor: '#f8f9fa' }}>
-                        <Card.Body>
-                            <h5 style={{ margin: 0, fontWeight: '600' }}>Fresh Meat</h5>
-                            <p style={{ color: '#6c757d' }}>(30 items)</p>
-                        </Card.Body>
-                    </Card>
-                    <Card className="text-center border-0 mb-2" style={{ backgroundColor: '#f8f9fa' }}>
-                        <Card.Body>
-                            <h5 style={{ margin: 0, fontWeight: '600' }}>Vegetables</h5>
-                            <p style={{ color: '#6c757d' }}>(25 items)</p>
-                        </Card.Body>
-                    </Card>
-                    <Card className="text-center border-0 mb-2" style={{ backgroundColor: '#f8f9fa' }}>
-                        <Card.Body>
-                            <h5 style={{ margin: 0, fontWeight: '600', }}>Apple & Mango</h5>
-                            <p style={{ color: '#6c757d' }}>(45 items)</p>
-                        </Card.Body>
-                    </Card>
-                    <Card className="text-center border-0 mb-2" style={{ backgroundColor: '#f8f9fa' }}>
-                        <Card.Body>
-                            <h5 style={{ margin: 0, fontWeight: '600' }}>Strawberry</h5>
-                            <p style={{ color: '#6c757d' }}>(68 items)</p>
-                        </Card.Body>
-                    </Card>
-                    <Card className="text-center border-0" style={{ backgroundColor: '#f8f9fa' }}>
-                        <Card.Body>
-                            <h5 style={{ margin: 0, fontWeight: '600', color: '#6ec186' }}>View More</h5>
-                        </Card.Body>
-                    </Card>
-                </Col>
+        <div className="container py-5" style={{ paddingTop: 100 }}>
+            <div className="row">
+                <div className="col-md-4 mb-4">
+                    <div className="card text-center border-0 mb-2 bg-light">
+                        <div className="card-body">
+                            <h5 className="fw-semibold text-success m-0">Cake & Milk</h5>
+                            <p className="text-muted">(65 items)</p>
+                        </div>
+                    </div>
+                    <div className="card text-center border-0 mb-2 bg-light">
+                        <div className="card-body">
+                            <h5 className="fw-semibold m-0">Fresh Meat</h5>
+                            <p className="text-muted">(30 items)</p>
+                        </div>
+                    </div>
+                    <div className="card text-center border-0 mb-2 bg-light">
+                        <div className="card-body">
+                            <h5 className="fw-semibold m-0">Vegetables</h5>
+                            <p className="text-muted">(25 items)</p>
+                        </div>
+                    </div>
+                    <div className="card text-center border-0 mb-2 bg-light">
+                        <div className="card-body">
+                            <h5 className="fw-semibold m-0">Apple & Mango</h5>
+                            <p className="text-muted">(45 items)</p>
+                        </div>
+                    </div>
+                    <div className="card text-center border-0 mb-2 bg-light">
+                        <div className="card-body">
+                            <h5 className="fw-semibold m-0">Strawberry</h5>
+                            <p className="text-muted">(68 items)</p>
+                        </div>
+                    </div>
+                    <div className="card text-center border-0 bg-light">
+                        <div className="card-body">
+                            <h5 className="fw-semibold text-success m-0">View More</h5>
+                        </div>
+                    </div>
+                </div>
 
-                <Col xs={12} md={4}>
-                    <Card className="text-white border-0" style={{ position: 'relative' }}>
-                        <Card.Img
+                <div className="col-md-4 mb-4">
+                    <div className="card text-white border-0 position-relative">
+                        <img
                             src="https://maraviyainfotech.com/projects/carrot/carrot-v22/carrot-html/assets/img/categories/7.jpg"
+                            className="card-img"
+                            style={{ height: 575, objectFit: 'cover' }}
                             alt="Apple"
-                            style={{ height: '575px', objectFit: 'cover' }}
                         />
-                        <div
-                            style={{
-                                position: 'absolute',
-                                top: '20px',
-                                left: '20px',
-                                background: 'rgba(0,0,0,0.4)',
-                                padding: '10px',
-                                borderRadius: '8px',
-                            }}
-                        >
-                            <h1 style={{ fontSize: '48px', margin: 0 }}>30<span style={{ fontSize: '24px' }}>%</span></h1>
-                            <p style={{ margin: 0 }}>OFF</p>
+                        <div className="position-absolute top-0 start-0 m-3 bg-dark bg-opacity-50 p-2 rounded">
+                            <h1 className="m-0">
+                                30<span style={{ fontSize: 24 }}>%</span>
+                            </h1>
+                            <p className="m-0">OFF</p>
                         </div>
-                        <div
-                            style={{
-                                position: 'absolute',
-                                bottom: '20px',
-                                left: '20px',
-                                color: '#fff',
-                            }}
-                        >
-                            <h3 style={{ fontWeight: 'bold', marginLeft: '130px' }}>Apple</h3>
-                            <Button style={{ backgroundColor: '#6ec186', border: 'none', marginLeft: '130px' }}>Shop Now</Button>
+                        <div className="position-absolute bottom-0 start-0 text-white mb-3" style={{ marginLeft: '110px' }}>
+                            <h3 className="fw-bold ms-5">Apple</h3>
+                            <a
+                                href="#"
+                                className="btn text-white ms-5"
+                                style={{ backgroundColor: '#6ec186' }}
+                            >
+                                Shop Now
+                            </a>
                         </div>
-                    </Card>
-                </Col>
-                <Col xs={12} md={4}>
-                    <Card className="text-white border-0" style={{ position: 'relative' }}>
-                        <Card.Img
+                    </div>
+                </div>
+
+                <div className="col-md-4 mb-4">
+                    <div className="card text-white border-0 position-relative">
+                        <img
                             src="https://maraviyainfotech.com/projects/carrot/carrot-v22/carrot-html/assets/img/categories/8.jpg"
+                            className="card-img"
+                            style={{ height: 575, objectFit: 'cover' }}
                             alt="Mango"
-                            style={{ height: '575px', objectFit: 'cover' }}
                         />
-                        <div
-                            style={{
-                                position: 'absolute',
-                                top: '20px',
-                                left: '20px',
-                                background: 'rgba(0,0,0,0.4)',
-                                padding: '10px',
-                                borderRadius: '8px',
-                            }}
-                        >
-                            <h1 style={{ fontSize: '48px', margin: 0 }}>25<span style={{ fontSize: '24px' }}>%</span></h1>
-                            <p style={{ margin: 0 }}>OFF</p>
+                        <div className="position-absolute top-0 start-0 m-3 bg-dark bg-opacity-50 p-2 rounded">
+                            <h1 className="m-0">
+                                25<span style={{ fontSize: 24 }}>%</span>
+                            </h1>
+                            <p className="m-0">OFF</p>
                         </div>
-                        <div
-                            style={{
-                                position: 'absolute',
-                                bottom: '20px',
-                                left: '20px',
-                                color: '#fff',
-                            }}
-                        >
-                            <h3 style={{ fontWeight: 'bold', marginLeft: '130px' }}>Mango</h3>
-                            <Button style={{ backgroundColor: '#6ec186', border: 'none', marginLeft: '130px' }}>Shop Now</Button>
+                        <div className="position-absolute bottom-0 start-0 text-white mb-3" style={{ marginLeft: '110px' }}>
+                            <h3 className="fw-bold ms-5">Mango</h3>
+                            <a
+                                href="#"
+                                className="btn text-white ms-5"
+                                style={{ backgroundColor: '#6ec186' }}
+                            >
+                                Shop Now
+                            </a>
                         </div>
-                    </Card>
-                </Col>
-            </Row>
-        </Container>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     );
 };
 

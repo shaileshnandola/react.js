@@ -1,66 +1,75 @@
 import React from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
-import { RiRedPacketLine } from "react-icons/ri";
-import { RiCustomerService2Line } from "react-icons/ri";
+import { RiRedPacketLine, RiCustomerService2Line, RiMoneyDollarBoxLine } from "react-icons/ri";
 import { FiTruck } from "react-icons/fi";
-import { RiMoneyDollarBoxLine } from "react-icons/ri";
 
 const Product = () => {
-    return (
-        <div>
-            <Container className="py-5">
-                <Row className="g-4">
-                    <Col md={6} lg={3}>
-                        <Card className="text-center border-0" style={{ backgroundColor: '#f9f9f9' }}>
-                            <Card.Body>
-                                <div className="mb-3"><RiRedPacketLine size={40} color="#5cb49e" /></div>
-                                <Card.Title className="fw-bold">Product Packing</Card.Title>
-                                <Card.Text className="text-muted">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
+  return (
+    <div>
+      <div className="container py-5">
+        <div className="row g-4">
+          <div className="col-md-6 col-lg-3">
+            <div
+              className="text-center border-0"
+              style={{ backgroundColor: '#f9f9f9', borderRadius: '4px', padding: '24px' }}
+            >
+              <div className="mb-3">
+                <RiRedPacketLine size={40} color="#5cb49e" />
+              </div>
+              <h5 className="fw-bold">Product Packing</h5>
+              <p className="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing.
+              </p>
+            </div>
+          </div>
 
-                    <Col md={6} lg={3}>
-                        <Card className="text-center border-0" style={{ backgroundColor: '#f9f9f9' }}>
-                            <Card.Body>
-                                <div className="mb-3"><RiCustomerService2Line  size={40} color="#5cb49e" /></div>
-                                <Card.Title className="fw-bold">24X7 Support</Card.Title>
-                                <Card.Text className="text-muted">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
+          <div className="col-md-6 col-lg-3">
+            <div
+              className="text-center border-0"
+              style={{ backgroundColor: '#f9f9f9', borderRadius: '4px', padding: '24px' }}
+            >
+              <div className="mb-3">
+                <RiCustomerService2Line size={40} color="#5cb49e" />
+              </div>
+              <h5 className="fw-bold">24X7 Support</h5>
+              <p className="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing.
+              </p>
+            </div>
+          </div>
 
-                    <Col md={6} lg={3}>
-                        <Card className="text-center border-0" style={{ backgroundColor: '#f9f9f9' }}>
-                            <Card.Body>
-                                <div className="mb-3"><FiTruck size={40} color="#5cb49e" /></div>
-                                <Card.Title className="fw-bold">Delivery in 5 Days</Card.Title>
-                                <Card.Text className="text-muted">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
+          <div className="col-md-6 col-lg-3">
+            <div
+              className="text-center border-0"
+              style={{ backgroundColor: '#f9f9f9', borderRadius: '4px', padding: '24px' }}
+            >
+              <div className="mb-3">
+                <FiTruck size={40} color="#5cb49e" />
+              </div>
+              <h5 className="fw-bold">Delivery in 5 Days</h5>
+              <p className="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing.
+              </p>
+            </div>
+          </div>
 
-                    <Col md={6} lg={3}>
-                        <Card className="text-center shadow-sm border-0" style={{ backgroundColor: '#f9f9f9' }}>
-                            <Card.Body>
-                                <div className="mb-3"><RiMoneyDollarBoxLine size={40} color="#5cb49e" /></div>
-                                <Card.Title className="fw-bold">Payment Secure</Card.Title>
-                                <Card.Text className="text-muted">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
-            </Container>
+          <div className="col-md-6 col-lg-3">
+            <div
+              className="text-center shadow-sm border-0"
+              style={{ backgroundColor: '#f9f9f9', borderRadius: '4px', padding: '24px' }}
+            >
+              <div className="mb-3">
+                <RiMoneyDollarBoxLine size={40} color="#5cb49e" />
+              </div>
+              <h5 className="fw-bold">Payment Secure</h5>
+              <p className="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipisicing.
+              </p>
+            </div>
+          </div>
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
-export default Product
+export default Product;

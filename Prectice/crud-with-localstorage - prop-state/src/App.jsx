@@ -40,7 +40,6 @@ function App() {
         [name]: value,
       });
     }
-
   };
 
   const deleterecord = (userid) => {
