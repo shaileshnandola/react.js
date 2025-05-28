@@ -50,13 +50,13 @@ const Categories = () => {
                             style={{ height: 575, objectFit: 'cover' }}
                             alt="Apple"
                         />
-                        <div className="position-absolute top-0 start-0 m-3 bg-dark bg-opacity-50 p-2 rounded">
+                        <div className="position-absolute top-0 start-0 m-3 p-2 rounded">
                             <h1 className="m-0">
                                 30<span style={{ fontSize: 24 }}>%</span>
                             </h1>
                             <p className="m-0">OFF</p>
                         </div>
-                        <div className="position-absolute bottom-0 start-0 text-white mb-3" style={{ marginLeft: '110px' }}>
+                        <div className="position-absolute bottom-0 text-white mb-3" style={{ marginLeft: '110px' }}>
                             <h3 className="fw-bold ms-5">Apple</h3>
                             <a
                                 href="#"
@@ -77,13 +77,13 @@ const Categories = () => {
                             style={{ height: 575, objectFit: 'cover' }}
                             alt="Mango"
                         />
-                        <div className="position-absolute top-0 start-0 m-3 bg-dark bg-opacity-50 p-2 rounded">
+                        <div className="position-absolute top-0 start-0 m-3  p-2 rounded">
                             <h1 className="m-0">
                                 25<span style={{ fontSize: 24 }}>%</span>
                             </h1>
                             <p className="m-0">OFF</p>
                         </div>
-                        <div className="position-absolute bottom-0 start-0 text-white mb-3" style={{ marginLeft: '110px' }}>
+                        <div className="position-absolute bottom-0 text-white mb-3" style={{ marginLeft: '110px' }}>
                             <h3 className="fw-bold ms-5">Mango</h3>
                             <a
                                 href="#"

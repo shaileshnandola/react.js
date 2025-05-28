@@ -17,14 +17,14 @@ const Food = () => {
         <div className="row align-items-center">
           <div className="col-md-6">
             <div
-              className="p-4 border-0 rounded"
+              className="p-4 border-0 rounded mt-5 pt-4"
               style={{
                 backgroundColor: "#fff5ee",
                 maxWidth: "500px",
                
               }}
             >
-              <p className="text-success fw-bold mb-1 fs-5">
+              <p className="text-success fw-bold mb-2 fs-5">
                 35% <span className="text-dark fw-normal">OFF</span>
               </p>
               <h2 className="fw-bold mb-3">Great deal on organic food.</h2>

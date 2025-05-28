@@ -34,7 +34,7 @@ const Great = () => {
                                 “eiusmpsu dolor sit amet, conse cte tur ng elit, sed do eiusmod tem
                                 lacus velbr <br /> facilisis.”
                             </p>
-                            <div className="text-warning fs-5">★★★★★</div>
+                            <div className="fs-5"> ⭐⭐⭐⭐⭐</div>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ const Great = () => {
                                 “eiusmpsu dolor sit amet, conse cte tur ng elit, sed do eiusmod tem
                                 lacus vel <br /> facilisis.”
                             </p>
-                            <div className="text-warning fs-5">★★★★★</div>
+                            <div className="fs-5"> ⭐⭐⭐⭐⭐</div>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ const Great = () => {
                                 “eiusmpsu dolor sit amet, conse cte tur ng elit, sed do eiusmod tem
                                 lacus vel <br /> facilisis.”
                             </p>
-                            <div className="text-warning fs-5">★★★★★</div>
+                            <div className="fs-5"> ⭐⭐⭐⭐⭐</div>
                         </div>
                     </div>
                 </div>

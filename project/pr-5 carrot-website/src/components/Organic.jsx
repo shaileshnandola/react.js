@@ -15,12 +15,12 @@ const Organic = () => {
                 />
                 <div className="card-body">
                   <p className="text-muted mb-1">Vegetables</p>
-                  <div className="text-warning mb-2">★★★★★ <small>(4.5)</small></div>
+                  <div className="text-warning mb-2"> ⭐⭐⭐⭐⭐ (4.5)</div>
                   <h6 className="card-title fs-6 fw-bold">
                     Fresh organic villa farm lemon 500gm pack
                   </h6>
                   <div className="text-success fw-bold">
-                    $120.25{" "}
+                    $120.25
                     <span className="text-decoration-line-through text-muted ms-2">
                       $123.25
                     </span>
@@ -38,12 +38,12 @@ const Organic = () => {
                 />
                 <div className="card-body">
                   <p className="text-muted mb-1">Fruits</p>
-                  <div className="text-warning mb-2">★★★★★ <small>(4.5)</small></div>
+                  <div className="text-warning mb-2"> ⭐⭐⭐⭐⭐ (4.5)</div>
                   <h6 className="card-title fs-6 fw-bold">
                     Fresh organic apple 1kg simla marmimg
                   </h6>
                   <div className="text-success fw-bold">
-                    $120.25{" "}
+                    $120.25
                     <span className="text-decoration-line-through text-muted ms-2">
                       $123.25
                     </span>
@@ -61,12 +61,12 @@ const Organic = () => {
                 />
                 <div className="card-body">
                   <p className="text-muted mb-1">Snacks</p>
-                  <div className="text-warning mb-2">★★★★★ <small>(5.0)</small></div>
+                  <div className="text-warning mb-2"> ⭐⭐⭐⭐⭐(5.0)</div>
                   <h6 className="card-title fs-6 fw-bold">
                     Best snakes with hazel nut pack 200gm
                   </h6>
                   <div className="text-success fw-bold">
-                    $145{" "}
+                    $145
                     <span className="text-decoration-line-through text-muted ms-2">
                       $150
                     </span>
@@ -80,7 +80,7 @@ const Organic = () => {
         <div className="col-md-5">
           <div
             className="card border-0 position-relative h-100"
-            style={{ background: "#f9f9f9" }}
+            style={{ background: "#f9f9f9",}}
           >
             <img
               src="https://maraviyainfotech.com/projects/carrot/carrot-v22/carrot-html/assets/img/product/products-rightview.jpg"
@@ -92,7 +92,7 @@ const Organic = () => {
               <div className="w-100">
                 <h5 className="fw-bold text-dark">Organic & Healthy Vegetables</h5>
                 <p className="text-dark mb-2">
-                  <strong>25%</strong> OFF
+                  <span>25%</span> OFF
                 </p>
                 <button
                   className="btn btn-success fw-semibold px-4 text-white"

@@ -43,7 +43,7 @@ function PopularProducts() {
                                 <div className="card-body">
                                     <p className="text-muted">Vegetables</p>
                                     <div className="text-warning mb-2">
-                                        ★★★★☆ <small>(4.5)</small>
+                                        ⭐⭐⭐⭐⭐(4.5)
                                     </div>
                                     <h6 className="fw-bold">Fresh organic villa farm lemon 500gm pack</h6>
                                     <div className="text-success fw-bold">
@@ -63,7 +63,7 @@ function PopularProducts() {
                                 <div className="card-body">
                                     <p className="text-muted">Snacks</p>
                                     <div className="text-warning mb-2">
-                                        ★★★★★ <small>(5.0)</small>
+                                        ⭐⭐⭐⭐⭐ (5.0)
                                     </div>
                                     <h6 className="fw-bold">Best snakes with hazel nut pack 200gm</h6>
                                     <div className="text-success fw-bold">
@@ -83,7 +83,7 @@ function PopularProducts() {
                                 <div className="card-body">
                                     <p className="text-muted">Fruits</p>
                                     <div className="text-warning mb-2">
-                                        ★★★★☆ <small>(4.5)</small>
+                                         ⭐⭐⭐⭐⭐ (4.5)
                                     </div>
                                     <h6 className="fw-bold">Fresh organic apple 1kg simla marmimg</h6>
                                     <div className="text-success fw-bold">
@@ -103,7 +103,7 @@ function PopularProducts() {
                                 <div className="card-body">
                                     <p className="text-muted">Bakery</p>
                                     <div className="text-warning mb-2">
-                                        ★★★★★ <small>(5.0)</small>
+                                        ⭐⭐⭐⭐⭐(5.0)
                                     </div>
                                     <h6 className="fw-bold">Delicious white baked fresh bread and toast</h6>
                                     <div className="text-success fw-bold">
@@ -125,7 +125,8 @@ function PopularProducts() {
                             backgroundPosition: "center",
                             borderRadius: "16px",
                             overflow: "hidden",
-                            minHeight: "400px",
+                            height:'500px',
+                            bottom:'100px'
                         }}
                     >
                         <div className="d-flex flex-column justify-content-between h-100">
@@ -135,7 +136,7 @@ function PopularProducts() {
                                 <p className="mb-3">100% Natural</p>
                                 <a
                                     href="#"
-                                    className="btn btn-light fw-semibold px-4 text-success"
+                                    className="btn btn-light fw-semibold  text-success"
                                     style={{ borderRadius: "8px",}}
                                 >
                                     Shop Now
@@ -157,7 +158,7 @@ function PopularProducts() {
                                 <div className="card-body">
                                     <p className="text-muted">Snecks</p>
                                     <div className="text-warning mb-2">
-                                        ★★★★☆ <small>(5.0)</small>
+                                        ⭐⭐⭐⭐⭐(5.0)
                                     </div>
                                     <h6 className="fw-bold">Sweet crunchy nut mix 250gm pack</h6>
                                     <div className="text-success fw-bold">
@@ -177,7 +178,7 @@ function PopularProducts() {
                                 <div className="card-body">
                                     <p className="text-muted">Fruits</p>
                                     <div className="text-warning mb-2">
-                                        ★★★★★ <small>(3.2)</small>
+                                        ⭐⭐⭐⭐⭐ (3.2)
                                     </div>
                                     <h6 className="fw-bold">Organic fresh venila farm watermelon 5kg</h6>
                                     <div className="text-success fw-bold">
@@ -197,7 +198,7 @@ function PopularProducts() {
                                 <div className="card-body">
                                     <p className="text-muted">Snecks</p>
                                     <div className="text-warning mb-2">
-                                        ★★★★☆ <small>(5.0)</small>
+                                        ⭐⭐⭐⭐⭐(5.0)
                                     </div>
                                     <h6 className="fw-bold">Sweet crunchy nut mix 250gm pack</h6>
                                     <div className="text-success fw-bold">
@@ -217,7 +218,7 @@ function PopularProducts() {
                                 <div className="card-body">
                                     <p className="text-muted">Bakery</p>
                                     <div className="text-warning mb-2">
-                                        ★★★★★ <small>(5.0)</small>
+                                        ⭐⭐⭐⭐⭐(5.0)
                                     </div>
                                     <h6 className="fw-bold">Delicious white baked fresh bread and toast</h6>
                                     <div className="text-success fw-bold">

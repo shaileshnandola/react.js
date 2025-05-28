@@ -13,7 +13,7 @@ const LatestNews = () => {
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
             <div className="card-body">
-              <small>By Admin | Snacks</small>
+              <span>By Admin | Snacks</span>
               <h5 className="card-title mt-2">
                 Urna pretium elit mauris cursus at elit Vestibulum.
               </h5>
@@ -49,7 +49,7 @@ const LatestNews = () => {
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
             <div className="card-body">
-              <small>By Admin | Food</small>
+              <span>By Admin | Food</span>
               <h5 className="card-title mt-2">
                 Best guide to Shopping for organic ingredients.
               </h5>
@@ -85,7 +85,7 @@ const LatestNews = () => {
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
             <div className="card-body">
-              <small>By Admin | Snacks</small>
+              <span>By Admin | Snacks</span>
               <h5 className="card-title mt-2">
                 Cursus at elit vestibulum urna pretium elit mauris.
               </h5>
