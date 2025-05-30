@@ -153,7 +153,7 @@ const Form = () => {
                 <thead>
                     <tr>
                         <th>Id</th>
-                        <th>Name</th>
+                        <th>StudentName</th>
                         <th>Email</th>
                         <th>Password</th>
                         <th>Gender</th>
