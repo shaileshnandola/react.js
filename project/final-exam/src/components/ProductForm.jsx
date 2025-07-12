@@ -44,6 +44,12 @@ function ProductForm() {
     setFiltered(results);
   }, [searchTerm, sortOrder, show]);
 
+ 
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setNewProduct(prev => ({ ...prev, [name]: value }));
+  };
+
   const handleSubmit = () => {
     const { title, description, price, category } = newProduct;
     const isComplete = title && description && price && category;
@@ -54,11 +60,15 @@ function ProductForm() {
       price: Number(newProduct.price),
       id: show.length + 1
     };
-    setShow([
-      ...show,
-      newItem]);
 
-    setNewProduct({ title: '', description: '', price: '', category: '', thumbnail: '' });
+    setShow([...show, newItem]);
+    setNewProduct({
+      title: '',
+      description: '',
+      price: '',
+      category: '',
+      thumbnail: ''
+    });
   };
 
   const handleDelete = (index) => {
@@ -73,10 +83,20 @@ function ProductForm() {
       <form className="mb-4">
         <div className="row g-2 mb-3">
           <div className="col-md-6">
-            <input type="text" className="form-control" placeholder="Search by Title" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Search by Title"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
           </div>
           <div className="col-md-3">
-            <select className="form-select" value={sortOrder} onChange={(e) => setSortOrder(e.target.value)}>
+            <select
+              className="form-select"
+              value={sortOrder}
+              onChange={(e) => setSortOrder(e.target.value)}
+            >
               <option value="asc">Sort by Price: Low to High</option>
               <option value="desc">Sort by Price: High to Low</option>
             </select>
@@ -85,22 +105,61 @@ function ProductForm() {
 
         <div className="row g-3">
           <div className="col-md-2">
-            <input type="text" className="form-control" placeholder="Title" value={newProduct.title} onChange={(e) => setNewProduct({ ...newProduct, title: e.target.value })} />
+            <input
+              type="text"
+              name="title"
+              className="form-control"
+              placeholder="Title"
+              value={newProduct.title}
+              onChange={handleChange}
+            />
           </div>
           <div className="col-md-2">
-            <input type="text" className="form-control" placeholder="Description" value={newProduct.description} onChange={(e) => setNewProduct({ ...newProduct, description: e.target.value })} />
+            <input
+              type="text"
+              name="description"
+              className="form-control"
+              placeholder="Description"
+              value={newProduct.description}
+              onChange={handleChange}
+            />
           </div>
           <div className="col-md-1">
-            <input type="number" className="form-control" placeholder="Price" value={newProduct.price} onChange={(e) => setNewProduct({ ...newProduct, price: e.target.value })} />
+            <input
+              type="number"
+              name="price"
+              className="form-control"
+              placeholder="Price"
+              value={newProduct.price}
+              onChange={handleChange}
+            />
           </div>
           <div className="col-md-2">
-            <input type="text" className="form-control" placeholder="Category" value={newProduct.category} onChange={(e) => setNewProduct({ ...newProduct, category: e.target.value })} />
+            <input
+              type="text"
+              name="category"
+              className="form-control"
+              placeholder="Category"
+              value={newProduct.category}
+              onChange={handleChange}
+            />
           </div>
           <div className="col-md-3">
-            <input type="text" className="form-control" placeholder="Image URL" value={newProduct.thumbnail} onChange={(e) => setNewProduct({ ...newProduct, thumbnail: e.target.value })} />
+            <input
+              type="text"
+              name="thumbnail"
+              className="form-control"
+              placeholder="Image URL"
+              value={newProduct.thumbnail}
+              onChange={handleChange}
+            />
           </div>
           <div className="col-md-2">
-            <button type="button" className="btn btn-primary w-100" onClick={handleSubmit}>
+            <button
+              type="button"
+              className="btn btn-primary w-100"
+              onClick={handleSubmit}
+            >
               + Add Product
             </button>
           </div>
@@ -108,30 +167,34 @@ function ProductForm() {
       </form>
 
       <div className="row g-4">
-        {
-          filtered.map((item, index) => (
-            <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-3">
-              <div className="card h-100 shadow border-0">
-                <img
-                  src={item.thumbnail || 'https://via.placeholder.com/200'}
-                  className="card-img-top"
-                  alt="product"
-                  style={{ height: '200px', objectFit: 'cover' }}
-                />
-                <div className="card-body d-flex flex-column">
-                  <h5 className="text-primary">{item.title}</h5>
-                  <p className="text-muted small flex-grow-1">{item.description}</p>
-                  <div className="d-flex justify-content-between mb-2">
-                    <span className="fw-semibold">₹{item.price}</span>
-                    <span className="badge bg-secondary">{item.category}</span>
-                  </div>
-                  <div className="d-flex justify-content-end">
-                    <button className="btn btn-outline-danger btn-sm" onClick={() => handleDelete(index)}>Delete</button>
-                  </div>
+        {filtered.map((item, index) => (
+          <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div className="card h-100 shadow border-0">
+              <img
+                src={item.thumbnail || 'https://via.placeholder.com/200'}
+                className="card-img-top"
+                alt="product"
+                style={{ height: '200px', objectFit: 'cover' }}
+              />
+              <div className="card-body d-flex flex-column">
+                <h5 className="text-primary">{item.title}</h5>
+                <p className="text-muted small flex-grow-1">{item.description}</p>
+                <div className="d-flex justify-content-between mb-2">
+                  <span className="fw-semibold">₹{item.price}</span>
+                  <span className="badge bg-secondary">{item.category}</span>
+                </div>
+                <div className="d-flex justify-content-end">
+                  <button
+                    className="btn btn-outline-danger btn-sm"
+                    onClick={() => handleDelete(index)}
+                  >
+                    Delete
+                  </button>
                 </div>
               </div>
             </div>
-          ))}
+          </div>
+        ))}
       </div>
     </div>
   );
