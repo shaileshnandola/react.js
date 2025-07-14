@@ -44,10 +44,13 @@ function ProductForm() {
     setFiltered(results);
   }, [searchTerm, sortOrder, show]);
 
- 
+
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setNewProduct(prev => ({ ...prev, [name]: value }));
+    setNewProduct(prev => ({
+      ...prev,
+      [name]: value
+    }));
   };
 
   const handleSubmit = () => {
